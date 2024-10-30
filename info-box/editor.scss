@@ -1,0 +1,15 @@
+.wp-block-info-box {
+  &__title {
+    margin: 0 !important;
+  }
+
+  &__text {
+    margin: 0 !important;
+  }
+
+  &__modal-icons {
+    .components-popover__content {
+      width: 300px;
+    }
+  }
+}

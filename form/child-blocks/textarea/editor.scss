@@ -1,0 +1,9 @@
+.buba-blocks-textarea {
+  textarea {
+    resize: none;
+
+    &:focus {
+      border-color: var(--buba-blocks-textarea-border-color) !important;
+    }
+  }
+}

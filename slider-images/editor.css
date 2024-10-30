@@ -1,0 +1,20 @@
+.slick-slider.wp-block-buba-blocks-slider-images .slick-slide {
+  position: relative;
+}
+
+.slick-slider.wp-block-buba-blocks-slider-images .slick-slide img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.wp-block-buba-blocks-slider-images img {
+  width: 100%;
+}
+
+.wp-block-buba-blocks-slider-images .slick-dots {
+  bottom: -55px;
+}
+
+.buba-blocks-slider-images-item figure {
+  margin: 0;
+}

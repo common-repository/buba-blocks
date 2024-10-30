@@ -1,0 +1,96 @@
+.is-selected .buba-social-share__placeholder {
+  opacity: .1;
+}
+
+.components-button.is-link.buba-delete-image {
+  padding: 5px 16px;
+}
+
+.block-editor-block-list__layout .wp-block.buba-social-share__item {
+  margin: 4px 0;
+}
+
+.buba-social-share {
+  list-style-type: none !important;
+}
+
+.buba-social-share__placeholder-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+}
+
+.buba-social-share__placeholder > .buba-social-share-link {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+  width: 0 !important;
+  visibility: hidden;
+}
+
+.buba-social-share__placeholder .buba-social-share-link {
+  padding: 6px 16px;
+  margin: 4px 8px 4px 0;
+  width: auto;
+  line-height: 0;
+  display: block;
+  border-radius: 9999px;
+  -webkit-transition: -webkit-transform .1s ease;
+  transition: -webkit-transform .1s ease;
+  -o-transition: transform .1s ease;
+  transition: transform .1s ease;
+  transition: transform .1s ease, -webkit-transform .1s ease;
+  height: auto;
+}
+
+.buba-social-share__placeholder .buba-social-share-link:before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.buba-social-share__placeholder .buba-social-share-link--twitter {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.buba-social-share__placeholder .buba-social-share-link--facebook {
+  background-color: #1778f2;
+  color: #fff;
+}
+
+.buba-social-share__placeholder .buba-social-share-link--instagram {
+  background-color: #f00075;
+  color: #fff;
+}
+
+.buba-social-share__item {
+  min-width: 56px;
+  min-height: 36px;
+}
+
+.buba-social-share.is-horizontal .block-list-appender {
+  margin: 8px 4px !important;
+}
+
+.buba-social-share.is-vertical .block-list-appender {
+  margin: 8px auto !important;
+}
+
+.buba-social-share.is-vertical .block-list-appender .block-editor-button-block-appender.block-list-appender__toggle {
+  margin: 0 auto;
+}
+
+.buba-social-share__settings .components-notice {
+  padding: 0 0 0 20px;
+  margin: 0 0 20px 0;
+}
+
+.buba-social-share__settings .components-notice__content {
+  margin-right: 0;
+}

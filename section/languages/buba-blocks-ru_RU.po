@@ -1,0 +1,1578 @@
+# Copyright (C) 2021 Ecuras LLC
+# This file is distributed under the same license as the Buba Blocks plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Buba Blocks 1.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buba-blocks\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-10-05T11:48:05+00:00\n"
+"PO-Revision-Date: 2021-10-06 14:46+0300\n"
+"X-Generator: Poedit 3.0\n"
+"X-Domain: buba-blocks\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru\n"
+
+#. Plugin Name of the plugin
+msgid "Buba Blocks"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://bitbucket.org/ecuras/buba-blocks/src/master/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This is a first Gutenberg plugin from Ecuras LLC."
+msgstr "Первый плагин от компании Ecuras LLC для редактора блоков Gutenberg."
+
+#. Author of the plugin
+msgid "Ecuras LLC"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://ecuras.com"
+msgstr ""
+
+#: index.php:37
+msgid "Buba"
+msgstr ""
+
+#: index.php:51
+msgctxt "Block pattern category"
+msgid "Sections"
+msgstr "Разделы"
+
+#: patterns/index.php:13
+msgid "Hero section"
+msgstr "Раздел «hero»"
+
+#: patterns/index.php:22
+msgid "CTA section"
+msgstr "Раздел «CTA»"
+
+#: posts/index.php:300 posts/index.php:387 posts/build/index.js:6
+msgid "(no title)"
+msgstr "(без названия)"
+
+#. translators: byline. %s: current author.
+#: posts/index.php:415 posts/build/index.js:6
+msgid "by %s"
+msgstr "От %s"
+
+#: accordion/build/index.js:6 components/border-control.js:40
+#: section/build/index.js:8 table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:287
+msgid "Border"
+msgstr "Границы"
+
+#: accordion/build/index.js:6 accordion/src/edit.js:133
+#: components/border-control.js:51 section/build/index.js:8
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:325
+msgid "Border color"
+msgstr "Цвет границ"
+
+#: accordion/build/index.js:6 accordion/src/edit.js:66
+#: slider-images/build/index.js:6 slider-images/src/edit.js:349
+msgid "Main settings"
+msgstr "Главные настройки"
+
+#: accordion/build/index.js:6 accordion/src/edit.js:90
+msgid "Style settings"
+msgstr "Настройки стилей"
+
+#: accordion/build/index.js:6 accordion/src/edit.js:100 button/build/index.js:6
+#: button/src/edit.js:96 social-share/build/index.js:6
+#: social-share/src/edit.js:135 table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:315
+msgid "Border radius"
+msgstr "Радиус закругления границ"
+
+#: accordion/build/index.js:6 accordion/src/edit.js:107
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:433
+msgid "Title color"
+msgstr "Цвет заголовка"
+
+#: accordion/build/index.js:6 accordion/src/edit.js:113
+#: accordion/src/edit.js:127 button/build/index.js:6
+#: button/src/color-edit.js:219 posts/build/index.js:6
+#: posts/src/card-edit.js:69
+msgid "Background color"
+msgstr "Цвет заднего фона"
+
+#: accordion/build/index.js:6 accordion/src/edit.js:119
+msgid "Open style settings"
+msgstr "Стили при открытии"
+
+#: accordion/build/index.js:6 accordion/src/edit.js:148
+msgid "Accordion Title"
+msgstr "Заголовок"
+
+#: accordion/build/index.js:6 accordion/src/index.js:12
+msgid "Accordion"
+msgstr "Аккордеон"
+
+#: accordion/build/index.js:6 accordion/src/index.js:73
+msgid "title."
+msgstr "Заголовок."
+
+#: accordion/build/index.js:6 accordion/src/index.js:80 card/build/index.js:6
+#: card/src/index.js:109
+msgid "— Kobayashi Issa (一茶)"
+msgstr "— Кабояши Исса (一茶)"
+
+#: accordion/src/inspector.js:31
+msgid "Accordion settings"
+msgstr "Настройки аккордеона"
+
+#: assets/fontSizes.js:5 info-box/src/edit.js:201 info-box/src/edit.js:211
+#: info-box/src/edit.js:273 info-box/src/edit.js:284 info-box/src/edit.js:314
+#: posts/build/index.js:6 posts/src/card-edit.js:21 posts/src/card-edit.js:27
+#: posts/src/card-edit.js:33 social-share/build/index.js:6
+#: social-share/src/edit.js:34 table-of-contents/build/index.js:6
+msgid "Small"
+msgstr "Маленький"
+
+#: assets/fontSizes.js:10 info-box/src/edit.js:315 posts/build/index.js:6
+#: posts/src/card-edit.js:22 posts/src/card-edit.js:28
+#: posts/src/card-edit.js:34 social-share/build/index.js:6
+#: social-share/src/edit.js:35 table-of-contents/build/index.js:6
+msgid "Normal"
+msgstr "Стандартный"
+
+#: assets/fontSizes.js:15 info-box/src/edit.js:202 info-box/src/edit.js:212
+#: info-box/src/edit.js:274 info-box/src/edit.js:285 info-box/src/edit.js:316
+#: table-of-contents/build/index.js:6
+msgid "Medium"
+msgstr "Средний"
+
+#: assets/fontSizes.js:20 table-of-contents/build/index.js:6
+msgid "Big"
+msgstr "Большой"
+
+#: assets/fontSizes.js:25 posts/build/index.js:6 posts/src/card-edit.js:24
+#: posts/src/card-edit.js:30 posts/src/card-edit.js:36
+#: social-share/build/index.js:6 social-share/src/edit.js:37
+#: table-of-contents/build/index.js:6
+msgid "Huge"
+msgstr "Огромный"
+
+#: assets/languages.js:4 map/build/index.js:6
+msgid "Afrikaans"
+msgstr "Африкаанс"
+
+#: assets/languages.js:5 map/build/index.js:6
+msgid "Albanian"
+msgstr "Албанский"
+
+#: assets/languages.js:6 map/build/index.js:6
+msgid "Amharic"
+msgstr "Амхарский"
+
+#: assets/languages.js:7 map/build/index.js:6
+msgid "Arabic"
+msgstr "Арабский"
+
+#: assets/languages.js:8 map/build/index.js:6
+msgid "Armenian"
+msgstr "Армянский"
+
+#: assets/languages.js:9 map/build/index.js:6
+msgid "Azerbaijani"
+msgstr "Азербайджанский"
+
+#: assets/languages.js:10 map/build/index.js:6
+msgid "Basque"
+msgstr "Баскский"
+
+#: assets/languages.js:11 map/build/index.js:6
+msgid "Belarusian"
+msgstr "Белорусский"
+
+#: assets/languages.js:12 map/build/index.js:6
+msgid "Bengali"
+msgstr "Бенгальский"
+
+#: assets/languages.js:13 map/build/index.js:6
+msgid "Bosnian"
+msgstr "Боснийский"
+
+#: assets/languages.js:14 map/build/index.js:6
+msgid "Bulgarian"
+msgstr "Болгарский"
+
+#: assets/languages.js:15 map/build/index.js:6
+msgid "Burmese"
+msgstr "Бирманский"
+
+#: assets/languages.js:16 map/build/index.js:6
+msgid "Catalan"
+msgstr "Каталонский"
+
+#: assets/languages.js:17 map/build/index.js:6
+msgid "Chinese"
+msgstr "Китайский"
+
+#: assets/languages.js:18 map/build/index.js:6
+msgid "Croatian"
+msgstr "Хорватский"
+
+#: assets/languages.js:19 map/build/index.js:6
+msgid "Czech"
+msgstr "Чешский"
+
+#: assets/languages.js:20 map/build/index.js:6
+msgid "Danish"
+msgstr "Датский"
+
+#: assets/languages.js:21 map/build/index.js:6
+msgid "Dutch"
+msgstr "Голландский"
+
+#: assets/languages.js:22 map/build/index.js:6
+msgid "English"
+msgstr "Английский"
+
+#: assets/languages.js:23 map/build/index.js:6
+msgid "Estonian"
+msgstr "Эстонский"
+
+#: assets/languages.js:24 map/build/index.js:6
+msgid "Farsi"
+msgstr "Фарси"
+
+#: assets/languages.js:25 map/build/index.js:6
+msgid "Finnish"
+msgstr "Финский"
+
+#: assets/languages.js:26 map/build/index.js:6
+msgid "French"
+msgstr "Французкий"
+
+#: assets/languages.js:27 map/build/index.js:6
+msgid "Galician"
+msgstr "Галицкий"
+
+#: assets/languages.js:28 map/build/index.js:6
+msgid "Georgian"
+msgstr "Грузинский"
+
+#: assets/languages.js:29 map/build/index.js:6
+msgid "German"
+msgstr "Немецкий"
+
+#: assets/languages.js:30 map/build/index.js:6
+msgid "Greek"
+msgstr "Греческий"
+
+#: assets/languages.js:31 map/build/index.js:6
+msgid "Gujarati"
+msgstr "Гуджарати"
+
+#: assets/languages.js:32 map/build/index.js:6
+msgid "Hebrew"
+msgstr "Иврит"
+
+#: assets/languages.js:33 map/build/index.js:6
+msgid "Hindi"
+msgstr "Хинди"
+
+#: assets/languages.js:34 map/build/index.js:6
+msgid "Hungarian"
+msgstr "Венгерский"
+
+#: assets/languages.js:35 map/build/index.js:6
+msgid "Icelandic"
+msgstr "Исландский"
+
+#: assets/languages.js:36 map/build/index.js:6
+msgid "Indonesian"
+msgstr "Индонезийский"
+
+#: assets/languages.js:37 map/build/index.js:6
+msgid "Italian"
+msgstr "Итальянский"
+
+#: assets/languages.js:38 map/build/index.js:6
+msgid "Japanese"
+msgstr "Японский"
+
+#: assets/languages.js:39 map/build/index.js:6
+msgid "Kannada"
+msgstr "Каннада"
+
+#: assets/languages.js:40 map/build/index.js:6
+msgid "Kazakh"
+msgstr "Казахский"
+
+#: assets/languages.js:41 map/build/index.js:6
+msgid "Khmer"
+msgstr "Кхмерский"
+
+#: assets/languages.js:42 map/build/index.js:6
+msgid "Korean"
+msgstr "Корейский"
+
+#: assets/languages.js:43 map/build/index.js:6
+msgid "Kyrgyz"
+msgstr "Киргизский"
+
+#: assets/languages.js:44 map/build/index.js:6
+msgid "Lao"
+msgstr "Лаосский"
+
+#: assets/languages.js:45 map/build/index.js:6
+msgid "Latvian"
+msgstr "Латышский"
+
+#: assets/languages.js:46 map/build/index.js:6
+msgid "Lithuanian"
+msgstr "Литовский"
+
+#: assets/languages.js:47 map/build/index.js:6
+msgid "Macedonian"
+msgstr "Македонский"
+
+#: assets/languages.js:48 map/build/index.js:6
+msgid "Malay"
+msgstr "Малайский"
+
+#: assets/languages.js:49 map/build/index.js:6
+msgid "Malayalam"
+msgstr "Малаялам"
+
+#: assets/languages.js:50 map/build/index.js:6
+msgid "Marathi"
+msgstr "Маратхи"
+
+#: assets/languages.js:51 map/build/index.js:6
+msgid "Mongolian"
+msgstr "Монгольский"
+
+#: assets/languages.js:52 map/build/index.js:6
+msgid "Nepali"
+msgstr "Непальский"
+
+#: assets/languages.js:53 map/build/index.js:6
+msgid "Norwegian"
+msgstr "Норвежский"
+
+#: assets/languages.js:54 map/build/index.js:6
+msgid "Polish"
+msgstr "Польский"
+
+#: assets/languages.js:55 map/build/index.js:6
+msgid "Portuguese"
+msgstr "Португальский"
+
+#: assets/languages.js:56 map/build/index.js:6
+msgid "Punjabi"
+msgstr "Пенджаби"
+
+#: assets/languages.js:57 map/build/index.js:6
+msgid "Romanian"
+msgstr "Румынский"
+
+#: assets/languages.js:58 map/build/index.js:6
+msgid "Russian"
+msgstr "Русский"
+
+#: assets/languages.js:59 map/build/index.js:6
+msgid "Serbian"
+msgstr "Сербский"
+
+#: assets/languages.js:60 map/build/index.js:6
+msgid "Sinhalese"
+msgstr "Сингальский"
+
+#: assets/languages.js:61 map/build/index.js:6
+msgid "Slovak"
+msgstr "Словацкий"
+
+#: assets/languages.js:62 map/build/index.js:6
+msgid "Slovenian"
+msgstr "Словенский"
+
+#: assets/languages.js:63 map/build/index.js:6
+msgid "Spanish"
+msgstr "Испанский"
+
+#: assets/languages.js:64 map/build/index.js:6
+msgid "Swahili"
+msgstr "Суахили"
+
+#: assets/languages.js:65 map/build/index.js:6
+msgid "Swedish"
+msgstr "Шведский"
+
+#: assets/languages.js:66 map/build/index.js:6
+msgid "Tamil"
+msgstr "Тамильский"
+
+#: assets/languages.js:67 map/build/index.js:6
+msgid "Telugu"
+msgstr "Телугу"
+
+#: assets/languages.js:68 map/build/index.js:6
+msgid "Thai"
+msgstr "Тайский"
+
+#: assets/languages.js:69 map/build/index.js:6
+msgid "Turkish"
+msgstr "Турецкий"
+
+#: assets/languages.js:70 map/build/index.js:6
+msgid "Ukrainian"
+msgstr "Украинский"
+
+#: assets/languages.js:71 map/build/index.js:6
+msgid "Urdu"
+msgstr "Урду"
+
+#: assets/languages.js:72 map/build/index.js:6
+msgid "Uzbek"
+msgstr "Узбекский"
+
+#: assets/languages.js:73 map/build/index.js:6
+msgid "Vietnamese"
+msgstr "Вьетнамский"
+
+#: assets/languages.js:74 map/build/index.js:6
+msgid "Zulu"
+msgstr "Зулусский"
+
+#: assets/socialLinks.js:3 social-share-child/build/index.js:6
+msgid "Facebook"
+msgstr ""
+
+#: assets/socialLinks.js:4 social-share-child/build/index.js:6
+msgid "Twitter"
+msgstr ""
+
+#: assets/socialLinks.js:5 social-share-child/build/index.js:6
+msgid "Google Currents"
+msgstr "Google Медиа"
+
+#: assets/socialLinks.js:6 social-share-child/build/index.js:6
+msgid "Pinterest"
+msgstr ""
+
+#: assets/socialLinks.js:7 social-share-child/build/index.js:6
+msgid "LinkedIn"
+msgstr ""
+
+#: assets/socialLinks.js:8 social-share-child/build/index.js:6
+msgid "Blogger"
+msgstr ""
+
+#: assets/socialLinks.js:9 social-share-child/build/index.js:6
+msgid "Reddit"
+msgstr ""
+
+#: assets/socialLinks.js:10 social-share-child/build/index.js:6
+msgid "StumbleUpon"
+msgstr ""
+
+#: assets/socialLinks.js:11 social-share-child/build/index.js:6
+msgid "Tumblr"
+msgstr ""
+
+#: assets/socialLinks.js:12 social-share-child/build/index.js:6
+msgid "Email"
+msgstr ""
+
+#: assets/socialLinks.js:13 social-share-child/build/index.js:6
+msgid "Skype"
+msgstr ""
+
+#: assets/socialLinks.js:14 social-share-child/build/index.js:6
+msgid "Xing"
+msgstr ""
+
+#: button/build/index.js:6 button/src/color-edit.js:71
+#: components/slider-arrows.js:73 container/build/index.js:8
+#: container/src/color-edit.js:105 posts/build/index.js:6
+#: section/build/index.js:8 section/src/color-edit.js:105
+#: slider-images/build/index.js:6
+msgid "Color"
+msgstr "Цвет"
+
+#: button/build/index.js:6 button/src/color-edit.js:210 posts/build/index.js:6
+#: posts/src/card-edit.js:75
+msgid "Text color"
+msgstr "Цвет теска"
+
+#: button/build/index.js:6 button/src/edit.js:61
+msgid "Width settings"
+msgstr "Настройки ширины"
+
+#: button/build/index.js:6 button/src/edit.js:62
+msgid "Button width"
+msgstr "Ширина кнопки"
+
+#: button/build/index.js:6 button/src/edit.js:93
+msgid "Border settings"
+msgstr "Настройки границ"
+
+#: button/build/index.js:6 button/src/edit.js:131
+msgid "Icon settings"
+msgstr "Настройки иконки"
+
+#: button/build/index.js:6 button/src/edit.js:137
+msgid "Icon position"
+msgstr "Расположение иконки"
+
+#: button/build/index.js:6 button/src/edit.js:199
+msgid "Link"
+msgstr "Ссылка"
+
+#: button/build/index.js:6 button/src/edit.js:208
+msgid "Unlink"
+msgstr "Отменить связь"
+
+#: button/build/index.js:6 button/src/edit.js:331
+msgid "Add text…"
+msgstr "Добавить текст..."
+
+#: button/build/index.js:6 button/src/edit.js:374
+msgid "Hover settings"
+msgstr "Настройки при наведении"
+
+#: button/build/index.js:6 button/src/edit.js:376
+msgid "Text:"
+msgstr "Текст:"
+
+#: button/build/index.js:6 button/src/edit.js:382
+msgid "Background:"
+msgstr "Задний фон:"
+
+#: button/build/index.js:6 button/src/edit.js:388
+msgid "Duration(ms):"
+msgstr "Продолжительность(в миллисекундах):"
+
+#: button/build/index.js:6 button/src/edit.js:396
+msgid "Padding settings"
+msgstr "Настройки внутренних отступов"
+
+#: button/build/index.js:6 button/src/edit.js:416 social-share/build/index.js:6
+#: social-share/src/edit.js:169
+msgid "Link settings"
+msgstr "Настройки ссылки"
+
+#: button/build/index.js:6 button/src/edit.js:418
+msgid "Open in new tab"
+msgstr "Открыть в новой вкладке"
+
+#: button/build/index.js:6 button/src/edit.js:423
+msgid "Link rel"
+msgstr ""
+
+#: button/build/index.js:6 button/src/index.js:11
+msgid "Button"
+msgstr "Кнопка"
+
+#: button/build/index.js:6 button/src/index.js:110
+msgid "Call to Action"
+msgstr "Призыв к действию"
+
+#: button/build/index.js:6 button/src/index.js:115
+msgid "Fill"
+msgstr "Заполнить"
+
+#: button/build/index.js:6 button/src/index.js:116 card/build/index.js:6
+#: card/src/index.js:116
+msgid "Outline"
+msgstr "Контур"
+
+#: button/build/index.js:6 button/src/index.js:117
+msgid "Text"
+msgstr "Текст"
+
+#: card/build/index.js:6 card/src/media-container.js:71
+#: slider/src/media-container.js:71
+msgid "Media area"
+msgstr "Медиа-зона"
+
+#: card/build/index.js:6 card/src/edit.js:149
+msgid "Media & Text settings"
+msgstr "Настройки мультимедиа и текста"
+
+#: card/build/index.js:6 card/src/edit.js:151
+msgid "Stack on mobile"
+msgstr "Стек на мобильном телефоне"
+
+#: card/build/index.js:6 card/src/edit.js:162
+msgid "Alt text (alternative text)"
+msgstr "Альтернативный текст(alt text)"
+
+#: card/build/index.js:6 card/src/edit.js:168
+msgid "Describe the purpose of the image"
+msgstr "Опишите цель изображения"
+
+#: card/build/index.js:6 card/src/edit.js:170
+msgid "Leave empty if the image is purely decorative."
+msgstr "Оставьте поле пустым, если изображение чисто декоративное."
+
+#: card/build/index.js:6 card/src/edit.js:180
+msgid "Height(px)"
+msgstr "Высота(px)"
+
+#: card/build/index.js:6 card/src/index.js:14
+msgid "Card"
+msgstr "Карточка"
+
+#: card/build/index.js:6 card/src/index.js:100
+msgid "Card Title."
+msgstr "Заголовок карточки."
+
+#: card/build/index.js:6 card/src/index.js:115
+msgid "Elevated (shadowed)"
+msgstr "Затенить"
+
+#: components/slider-arrows.js:53 posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Arrows"
+msgstr "Стрелоки"
+
+#: components/slider-arrows.js:59 posts/build/index.js:6
+#: slider-images/build/index.js:6 social-share/build/index.js:6
+#: social-share/src/edit.js:110
+msgid "Size"
+msgstr "Размер"
+
+#: components/slider-arrows.js:67 posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Duration"
+msgstr "Продолжительность"
+
+#: components/slider-arrows.js:79 posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Hover color"
+msgstr "Цвет при наведении"
+
+#: components/slider-edit.js:101 posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Slider setting"
+msgstr "Настройки слайдера"
+
+#: components/slider-edit.js:107 posts/build/index.js:6
+#: posts/src/masonry-edit.js:63 section/build/index.js:8
+#: section/src/edit.js:242 slider-images/build/index.js:6
+#: social-share/build/index.js:6 social-share/src/edit.js:42
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:353
+msgid "Desktop"
+msgstr "ПК"
+
+#: components/slider-edit.js:112 posts/build/index.js:6
+#: posts/src/masonry-edit.js:68 section/build/index.js:8
+#: section/src/edit.js:247 slider-images/build/index.js:6
+#: social-share/build/index.js:6 social-share/src/edit.js:43
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:358
+msgid "Tablet"
+msgstr "Планшеты"
+
+#: components/slider-edit.js:117 posts/build/index.js:6
+#: posts/src/masonry-edit.js:73 section/build/index.js:8
+#: section/src/edit.js:252 slider-images/build/index.js:6
+#: social-share/build/index.js:6 social-share/src/edit.js:44
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:363
+msgid "Mobile"
+msgstr "Мобильные устройства"
+
+#: components/slider-edit.js:127 components/slider-edit.js:147
+#: components/slider-edit.js:185 posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Slides to show"
+msgstr "Кол-во слайдов для показа"
+
+#: components/slider-edit.js:135 components/slider-edit.js:164
+#: components/slider-edit.js:200 posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Slides to scroll"
+msgstr "Кол-во слайдов для прокрутки"
+
+#: components/slider-edit.js:221 posts/build/index.js:6
+#: slider-images/build/index.js:6 slider/build/index.js:6
+msgid "Speed"
+msgstr "Скорость"
+
+#: components/slider-edit.js:229 posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Gap between slider elements"
+msgstr "Расстояние между слайдами"
+
+#: components/slider-edit.js:236 posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Dots navigation"
+msgstr "Навигация по точкам"
+
+#: components/slider-edit.js:241 posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Arrows navigation"
+msgstr "Навигация по стрелкам"
+
+#: components/slider-edit.js:254 posts/build/index.js:6
+#: slider-images/build/index.js:6 slider/build/index.js:6
+msgid "Infinite"
+msgstr "Бесконечно"
+
+#: components/slider-edit.js:259 posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Center mode"
+msgstr "Центральный режим"
+
+#: components/slider-edit.js:265 posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Center padding"
+msgstr "Внутренние отступы в центральном режиме"
+
+#: components/slider-edit.js:273 posts/build/index.js:6
+#: slider-images/build/index.js:6 slider/build/index.js:6
+msgid "Fade"
+msgstr "Постепенное исчезновение"
+
+#: components/slider-edit.js:288 posts/build/index.js:6
+#: slider-images/build/index.js:6 slider/build/index.js:6
+msgid "Autoplay"
+msgstr "Автовоспроизведение"
+
+#: components/slider-edit.js:294 posts/build/index.js:6
+#: slider-images/build/index.js:6 slider/build/index.js:6
+msgid "Autoplay speed"
+msgstr "Скорость автозапуска"
+
+#: container/build/index.js:8 container/src/color-edit.js:98
+#: section/build/index.js:8 section/src/color-edit.js:98
+msgid "Overlay"
+msgstr "Покрытие"
+
+#: container/build/index.js:8 container/src/color-edit.js:111
+#: section/build/index.js:8 section/src/color-edit.js:111
+msgid "Opacity"
+msgstr "Непрозрачность"
+
+#: container/build/index.js:8 container/src/edit.js:132
+#: section/build/index.js:8 section/src/edit.js:135
+msgid "Value (px):"
+msgstr "Значение (px):"
+
+#: container/build/index.js:8 container/src/edit.js:159 map/build/index.js:6
+#: map/src/edit.js:74 posts/build/index.js:6 section/build/index.js:8
+#: section/src/edit.js:191 social-share/build/index.js:6
+#: social-share/src/edit.js:88
+msgid "General"
+msgstr "Глобальный"
+
+#: container/build/index.js:8 container/src/edit.js:164
+#: section/build/index.js:8 section/src/edit.js:196
+msgid "Style"
+msgstr "Стиль"
+
+#: container/build/index.js:8 container/src/edit.js:174
+msgid "Max container inside width (px)"
+msgstr "Максимальная внутренняя ширина контейнера (пикселей)"
+
+#: container/build/index.js:8 container/src/edit.js:183
+#: section/build/index.js:8 section/src/edit.js:232
+msgid "Auto"
+msgstr "Авто"
+
+#: container/build/index.js:8 container/src/edit.js:190
+#: section/build/index.js:8 section/src/edit.js:320
+#: social-share-child/build/index.js:6 social-share-child/src/edit.js:284
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:251
+msgid "Background"
+msgstr "Задний фон"
+
+#: container/build/index.js:8 container/src/edit.js:202
+#: section/build/index.js:8 section/src/edit.js:332
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:261
+msgid "Padding"
+msgstr "Внутренний оступ"
+
+#: container/build/index.js:8 container/src/edit.js:216
+#: section/build/index.js:8 section/src/edit.js:346
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:274
+msgid "Margin"
+msgstr "Наряженный отступ "
+
+#: container/build/index.js:8 container/src/edit.js:263
+#: container/src/edit.js:357 section/build/index.js:8 section/src/edit.js:445
+#: section/src/edit.js:539
+msgid "Background image"
+msgstr "Картинка заднего фона"
+
+#: container/build/index.js:8 container/src/edit.js:275
+#: section/build/index.js:8 section/src/edit.js:457
+#: slider-images/build/index.js:6 slider-images/src/gallery-image.js:267
+#: social-share-child/build/index.js:6 social-share-child/src/edit.js:272
+msgid "Replace image"
+msgstr "Заменить изображение"
+
+#: container/build/index.js:8 container/src/edit.js:280
+#: section/build/index.js:8 section/src/edit.js:462
+#: slider-images/build/index.js:6 slider-images/src/gallery-image.js:273
+msgid "Remove image"
+msgstr "Удалить изображение"
+
+#: container/build/index.js:8 container/src/edit.js:283
+#: section/build/index.js:8 section/src/edit.js:465
+msgid "Background Position"
+msgstr "Расположение заднего фона"
+
+#: container/build/index.js:8 container/src/edit.js:312
+#: section/build/index.js:8 section/src/edit.js:494
+msgid "Background Size"
+msgstr "Размеры заднего фона"
+
+#: container/build/index.js:8 container/src/edit.js:324
+#: section/build/index.js:8 section/src/edit.js:506
+msgid "Background Attachment"
+msgstr "Вложение заднего фона"
+
+#: container/build/index.js:8 container/src/edit.js:336
+#: section/build/index.js:8 section/src/edit.js:518
+msgid "Background Repeat"
+msgstr "Повтор заднего фона"
+
+#: container/build/index.js:8 container/src/edit.js:469
+#: social-share-child/build/index.js:6 social-share-child/src/edit.js:65
+msgid "Image"
+msgstr "Картинка"
+
+#: container/build/index.js:8 container/src/index.js:12
+msgid "Container"
+msgstr "Контейнер"
+
+#: container/build/index.js:8 container/src/index.js:29
+#: section/build/index.js:8 section/src/index.js:47
+msgid "Padding Top"
+msgstr "Верхний внутренний отступ"
+
+#: container/build/index.js:8 container/src/index.js:34
+#: section/build/index.js:8 section/src/index.js:52
+msgid "Padding Right"
+msgstr "Правый внутренний отступ"
+
+#: container/build/index.js:8 container/src/index.js:40
+#: section/build/index.js:8 section/src/index.js:58
+msgid "Padding Bottom"
+msgstr "Нижний внутренний отступ"
+
+#: container/build/index.js:8 container/src/index.js:46
+#: section/build/index.js:8 section/src/index.js:64
+msgid "Padding Left"
+msgstr "Левый внутренний отступ"
+
+#: container/build/index.js:8 container/src/index.js:53
+#: section/build/index.js:8 section/src/index.js:71
+msgid "Margin Top"
+msgstr "Верхний наружный отступ"
+
+#: container/build/index.js:8 container/src/index.js:58
+#: section/build/index.js:8 section/src/index.js:82
+msgid "Margin Bottom"
+msgstr "Нижний наружный отступ"
+
+#: info-box/src/edit.js:65
+msgid "Icon size(px):"
+msgstr "Размеры иконки(px):"
+
+#: info-box/src/edit.js:67
+msgid "Icon width(px):"
+msgstr "Ширина иконки(px):"
+
+#: info-box/src/edit.js:76
+msgid "Blue-sky"
+msgstr "Голубой"
+
+#: info-box/src/edit.js:77
+msgid "Green"
+msgstr "Зеленый"
+
+#: info-box/src/edit.js:78
+msgid "Orange"
+msgstr "Оранжевый"
+
+#: info-box/src/edit.js:117
+msgid "Select icon"
+msgstr "Выбрать иконку"
+
+#: info-box/src/edit.js:132
+msgid "Reset icon"
+msgstr "Заменить иконку"
+
+#: info-box/src/edit.js:137
+msgid "Same width and height"
+msgstr "Одинаковая ширина и высота"
+
+#: info-box/src/edit.js:155
+msgid "Icon padding:"
+msgstr "Внутренние отступы иконки"
+
+#: info-box/src/edit.js:178
+msgid "Select image"
+msgstr "Выбрать изображение"
+
+#: info-box/src/edit.js:193
+msgid "Reset image"
+msgstr "Заменить изображение"
+
+#: info-box/src/edit.js:198
+msgid "Image margin bottom:"
+msgstr "Наружный нижний отступ картинки"
+
+#: info-box/src/edit.js:203 info-box/src/edit.js:213 info-box/src/edit.js:275
+#: info-box/src/edit.js:286 info-box/src/edit.js:317 posts/build/index.js:6
+#: posts/src/card-edit.js:23 posts/src/card-edit.js:29
+#: posts/src/card-edit.js:35 social-share/build/index.js:6
+#: social-share/src/edit.js:36
+msgid "Large"
+msgstr "Очень больгшой"
+
+#: info-box/src/edit.js:208
+msgid "Image height:"
+msgstr "Высота картинки:"
+
+#: info-box/src/edit.js:224
+msgid "Icon height(px):"
+msgstr "Высота иконки(px):"
+
+#: info-box/src/edit.js:235
+msgid "Header settings"
+msgstr "Настройки шапки"
+
+#: info-box/src/edit.js:237
+msgid "Select image/icon"
+msgstr "Выберите картинка/иконка"
+
+#: info-box/src/edit.js:246
+msgid "Title settings"
+msgstr "Настройки заголовка"
+
+#: info-box/src/edit.js:248
+msgid "Title tag:"
+msgstr "Тег заголовка:"
+
+#: info-box/src/edit.js:251 table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:198
+msgid "H2"
+msgstr ""
+
+#: info-box/src/edit.js:252 table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:209
+msgid "H3"
+msgstr ""
+
+#: info-box/src/edit.js:253 table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:220
+msgid "H4"
+msgstr ""
+
+#: info-box/src/edit.js:254 table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:231
+msgid "H5"
+msgstr ""
+
+#: info-box/src/edit.js:255 table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:242
+msgid "H6"
+msgstr ""
+
+#: info-box/src/edit.js:263 info-box/src/edit.js:304
+msgid "Left"
+msgstr "Слева"
+
+#: info-box/src/edit.js:264 info-box/src/edit.js:305
+msgid "Right"
+msgstr "Справа"
+
+#: info-box/src/edit.js:265 info-box/src/edit.js:306
+msgid "Center"
+msgstr "По центру"
+
+#: info-box/src/edit.js:270
+msgid "Title margin bottom:"
+msgstr "Нижний наружный отступ заголовка:"
+
+#: info-box/src/edit.js:280
+msgid "Title padding bottom:"
+msgstr "Нижний внутренний отступ заголовка"
+
+#: info-box/src/edit.js:283 slider-images/build/index.js:6
+#: slider-images/src/edit.js:51 social-share/build/index.js:6
+#: social-share/src/edit.js:41
+msgid "None"
+msgstr "Ничего"
+
+#: info-box/src/edit.js:291
+msgid "Title decoration line"
+msgstr "Декоративная линия для заголовка"
+
+#: info-box/src/edit.js:299
+msgid "Text settings"
+msgstr "Настройки текста"
+
+#: info-box/src/edit.js:301
+msgid "Text position:"
+msgstr "Расположение текста:"
+
+#: info-box/src/edit.js:311
+msgid "Text size:"
+msgstr "Размер текста:"
+
+#: info-box/src/edit.js:318
+msgid "Extra-large"
+msgstr "Супер огромный"
+
+#: info-box/src/index.js:12
+msgid "Info box"
+msgstr "Информационное окно"
+
+#: info-box/src/index.js:13
+msgid ""
+"This block allows adding a heading prefix, heading, description, icon and "
+"more."
+msgstr ""
+"Этот блок позволяет добавлять префикс заголовка, заголовок, описание, значок "
+"и многое другое."
+
+#: map/build/index.js:6 map/src/edit.js:41
+msgid "Map height"
+msgstr "Высота карты"
+
+#: map/build/index.js:6 map/src/edit.js:78
+msgid "This block uses Google Maps API key to display the map."
+msgstr "Этот блок использует ключ API Карт Google для отображения карты."
+
+#: map/build/index.js:6 map/src/edit.js:101
+msgid "Zoom"
+msgstr "Увеличение"
+
+#: map/build/index.js:6 map/src/edit.js:112
+msgid "Language"
+msgstr "Язык"
+
+#: map/build/index.js:6 map/src/index.js:12
+msgid "Map"
+msgstr "Карта"
+
+#: map/build/index.js:6 map/src/index.js:13
+msgid "This block allows you to place a Google Map location."
+msgstr "Этот блок позволяет вам разместить местоположение на карте Google."
+
+#: posts/build/index.js:6 posts/src/constants.js:7
+msgid "Posts"
+msgstr "Посты"
+
+#: posts/build/index.js:6 posts/src/constants.js:8
+msgid "Pages"
+msgstr "Страницы"
+
+#: posts/build/index.js:6 posts/src/masonry-edit.js:56
+msgid "Masonry settings"
+msgstr "Настройки плитки"
+
+#: posts/build/index.js:6 posts/src/masonry-edit.js:82
+#: posts/src/masonry-edit.js:91 posts/src/masonry-edit.js:100
+msgid "Number of columns"
+msgstr "Число столбцов"
+
+#: posts/build/index.js:6 posts/src/masonry-edit.js:112
+msgid "Have a title?"
+msgstr "Есть заголовок?"
+
+#: posts/build/index.js:6 posts/src/masonry-edit.js:117
+msgid "Masonry gap"
+msgstr "Отступы в плитке"
+
+#: posts/build/index.js:6 posts/src/card-edit.js:18
+msgid "Extra-less"
+msgstr "Супер малкий"
+
+#: posts/build/index.js:6 posts/src/card-edit.js:19
+msgid "Less"
+msgstr "Мелкий"
+
+#: posts/build/index.js:6 posts/src/card-edit.js:20
+msgid "Extra-small"
+msgstr "Очень маленький"
+
+#: posts/build/index.js:6 posts/src/card-edit.js:67
+msgid "Card style setting"
+msgstr "Настройки стилей для карточки"
+
+#: posts/build/index.js:6 posts/src/card-edit.js:81
+msgid "Title size"
+msgstr "Размер заголовка"
+
+#: posts/build/index.js:6 posts/src/card-edit.js:87
+msgid "Text size"
+msgstr "Размер текста"
+
+#: posts/build/index.js:6 posts/src/card-edit.js:93
+msgid "Another text size"
+msgstr "Размер другого текста"
+
+#: posts/build/index.js:6 posts/src/index.js:11
+msgid "Posts Grid"
+msgstr "Сетка постов"
+
+#: posts/build/index.js:6 posts/src/index.js:12
+msgid ""
+"This block allows you to display a list of your posts pr pages in a grid "
+"layout."
+msgstr ""
+"Этот блок позволяет отображать список ваших сообщений или страниц в виде "
+"сетки."
+
+#: posts/build/index.js:6
+msgid "Post type"
+msgstr "Тип постов"
+
+#: posts/build/index.js:6
+msgid "Post content settings"
+msgstr "Настройки контента для постов"
+
+#: posts/build/index.js:6
+msgid "Post content"
+msgstr "Контент постов"
+
+#: posts/build/index.js:6
+msgid "Show:"
+msgstr "Показать:"
+
+#: posts/build/index.js:6
+msgid "Excerpt"
+msgstr "Отрывок"
+
+#: posts/build/index.js:6
+msgid "Full post"
+msgstr "Полный пост"
+
+#: posts/build/index.js:6
+msgid "Max number of words in excerpt"
+msgstr "Максимальное количество слов в отрывке"
+
+#: posts/build/index.js:6
+msgid "Post meta settings"
+msgstr "Настройки мета данных у постов"
+
+#: posts/build/index.js:6
+msgid "Display author name"
+msgstr "Отобразить имя автора"
+
+#: posts/build/index.js:6
+msgid "Display post date"
+msgstr "Отобразить дату постов"
+
+#: posts/build/index.js:6
+msgid "Featured image settings"
+msgstr "Настройки изображения"
+
+#: posts/build/index.js:6
+msgid "Display featured image"
+msgstr "Показать изображение"
+
+#: posts/build/index.js:6
+msgid "Image alignment"
+msgstr "Выравнивание изображения"
+
+#: posts/build/index.js:6
+msgid "Add link to featured image"
+msgstr "Добавить ссылку на избранное изображение"
+
+#: posts/build/index.js:6
+msgid "Sorting and filtering"
+msgstr "Сортировка и фильтрация"
+
+#: posts/build/index.js:6
+msgid "Columns"
+msgstr "Колонки"
+
+#: posts/build/index.js:6
+msgid "No posts found."
+msgstr "Посты не найдены."
+
+#: posts/build/index.js:6
+msgid "List view"
+msgstr "Посмотреть список"
+
+#: posts/build/index.js:6
+msgid "Grid view"
+msgstr "Посмотреть сетку"
+
+#: posts/build/index.js:6
+msgid "Masonry view"
+msgstr "Посмотреть плитку"
+
+#: posts/build/index.js:6
+msgid "Slider view"
+msgstr "Посмотреть слайдер"
+
+#: posts/build/index.js:6
+msgid " … "
+msgstr "..."
+
+#: posts/build/index.js:6
+msgid "Read more"
+msgstr "Читать больше"
+
+#: section/build/index.js:8 section/src/edit.js:201
+msgid "Advanced"
+msgstr "Передовой"
+
+#: section/build/index.js:8 section/src/edit.js:211
+msgid "Content Area Width"
+msgstr "Ширина области содержимого"
+
+#: section/build/index.js:8 section/src/edit.js:223
+msgid "Width(px)"
+msgstr "Ширина(px)"
+
+#: section/build/index.js:8 section/src/edit.js:268
+msgid "Reset height on tablet"
+msgstr "Сбросить высоту на планшете"
+
+#: section/build/index.js:8 section/src/edit.js:277
+msgid "Reset height on mobile"
+msgstr "Сбросить высоту на телефоне"
+
+#: section/build/index.js:8 section/src/edit.js:289
+msgid "Show scroll down button"
+msgstr "Показать кнопку прокрутки вниз"
+
+#: section/build/index.js:8 section/src/edit.js:296
+msgid "Scroll Down Text"
+msgstr "Текст прокрутки вниз"
+
+#: section/build/index.js:8 section/src/edit.js:302
+msgid "Left position"
+msgstr "Расположение слева"
+
+#: section/build/index.js:8 section/src/edit.js:308
+msgid "Bottom position"
+msgstr "Расположение снизу"
+
+#: section/build/index.js:8 section/src/edit.js:369
+msgid "Animation"
+msgstr "Анимация"
+
+#: section/build/index.js:8 section/src/edit.js:371
+msgid "Animation Effect:"
+msgstr "Анимационный эффект"
+
+#: section/build/index.js:8 section/src/edit.js:377
+msgid "Duration:"
+msgstr "Продолжительность"
+
+#: section/build/index.js:8 section/src/edit.js:388
+msgid "Delay (ms):"
+msgstr "Задержка( в миллисекундах ):"
+
+#: section/build/index.js:8 section/src/edit.js:417
+msgid "Section min Height"
+msgstr "Минимальная высота секции"
+
+#: section/build/index.js:8 section/src/index.js:12
+msgid "Section"
+msgstr "Раздел"
+
+#: section/build/index.js:8 section/src/index.js:76
+msgid "Margin Right"
+msgstr "Внешний отступ справа"
+
+#: section/build/index.js:8 section/src/index.js:88
+msgid "Margin Left"
+msgstr "Внешний отступ слева"
+
+#: section/build/index.js:8 section/src/index.js:171
+msgid "Scroll Down"
+msgstr "Прокрутка вниз"
+
+#: slider-images/build/index.js:6 slider-images/src/gallery-image.js:238
+msgid "Edit slider image"
+msgstr "Редактировать изображение слайдера"
+
+#: slider-images/build/index.js:6 slider-images/src/gallery-image.js:251
+msgid "Move image backward"
+msgstr "Переместить изображение назад"
+
+#: slider-images/build/index.js:6 slider-images/src/gallery-image.js:258
+msgid "Move image forward"
+msgstr "Переместить изображение вперед"
+
+#: slider-images/build/index.js:6 slider-images/src/gallery-image.js:281
+msgid "Write caption…"
+msgstr "Написать подпись…"
+
+#. translators: 1: the order number of the image. 2: the total number of images.
+#: slider-images/build/index.js:6 slider-images/src/gallery.js:85
+msgid "image %1$d of %2$d in gallery"
+msgstr "изображение %1$d из %2$d в галерее"
+
+#: slider-images/build/index.js:6 slider-images/src/gallery.js:125
+msgid "Write gallery caption…"
+msgstr "Написать заголовок галереи…"
+
+#: slider-images/build/index.js:6 slider-images/src/edit.js:49
+msgid "Attachment Page"
+msgstr "Страница вложения"
+
+#: slider-images/build/index.js:6 slider-images/src/edit.js:50
+msgid "Media File"
+msgstr "Медиа-файл"
+
+#: slider-images/build/index.js:6 slider-images/src/edit.js:56
+msgid "Drag images, upload new ones or select files from your library."
+msgstr ""
+"Перетаскивайте изображения, загружайте новые или выбирайте файлы из своей "
+"библиотеки."
+
+#: slider-images/build/index.js:6 slider-images/src/edit.js:59
+msgid "ADD MEDIA"
+msgstr "ДОБАВИТЬ МЕДИА"
+
+#: slider-images/build/index.js:6 slider-images/src/edit.js:323
+#: slider-images/src/index.js:12
+msgid "Slider images"
+msgstr "Слайдер изображений"
+
+#: slider-images/build/index.js:6 slider-images/src/edit.js:351
+msgid "Crop images"
+msgstr "Обрезать изображения"
+
+#: slider-images/build/index.js:6 slider-images/src/edit.js:221
+msgid "Thumbnails are cropped to align."
+msgstr "Эскизы обрезаются для выравнивания."
+
+#: slider-images/build/index.js:6 slider-images/src/edit.js:222
+msgid "Thumbnails are not cropped."
+msgstr "Эскизы не обрезаются."
+
+#: slider-images/build/index.js:6 slider-images/src/edit.js:357
+msgid "Link to"
+msgstr "Ссылка на"
+
+#: slider-images/build/index.js:6 slider-images/src/edit.js:364
+msgid "Image size"
+msgstr "Размер картинки"
+
+#: slider-images/build/index.js:6 slider-images/src/index.js:13
+msgid "Display multiple images in a slider."
+msgstr "Отображение нескольких изображений в слайдере."
+
+#: slider/build/index.js:6
+msgid "Slider settings"
+msgstr "Настройки слайдера"
+
+#: slider/build/index.js:6
+msgid "Show arrows"
+msgstr "Показать стрелки"
+
+#: slider/build/index.js:6
+msgid "Show dots"
+msgstr "Показать точки"
+
+#: slider/build/index.js:6
+msgid "Show media on left"
+msgstr "Показать медиа слева"
+
+#: slider/build/index.js:6
+msgid "Show media on right"
+msgstr "Показать медиа справа"
+
+#: slider/build/index.js:6
+msgid "Remove Last Slide"
+msgstr "Удалить последний слайд"
+
+#: slider/build/index.js:6
+msgid "Add Slide"
+msgstr "Добавить слайд"
+
+#: slider/build/index.js:6
+msgid "Show slider"
+msgstr "Показать слайдер"
+
+#: slider/build/index.js:6
+msgid "Edit slider"
+msgstr "Редактировать слайдер"
+
+#: slider/build/index.js:6 slider/src/index.js:12
+msgid "Slider"
+msgstr "Слайдер"
+
+#: social-share-child/build/index.js:6 social-share-child/src/edit.js:64
+msgid "Icon"
+msgstr "Иконка"
+
+#: social-share-child/build/index.js:6 social-share-child/src/edit.js:220
+msgid "Icon setting"
+msgstr "Настройки иконки"
+
+#: social-share-child/build/index.js:6 social-share-child/src/edit.js:222
+msgid "Type Share link"
+msgstr "Тип кнопки \"Поделиться ссылкой\""
+
+#: social-share-child/build/index.js:6 social-share-child/src/edit.js:228
+msgid "Image / Icon"
+msgstr "Картинка / Иконка"
+
+#: social-share-child/build/index.js:6 social-share-child/src/edit.js:272
+msgid "Add Media"
+msgstr "Добавить медиа"
+
+#: social-share-child/build/index.js:6 social-share-child/src/edit.js:279
+msgid "Delete image"
+msgstr "удалить изображение"
+
+#: social-share-child/build/index.js:6 social-share-child/src/edit.js:283
+msgid "Icon color settings"
+msgstr "Настройки цвета иконки"
+
+#: social-share-child/build/index.js:6 social-share-child/src/edit.js:294
+msgid "Icon color"
+msgstr "Цвеи иконки"
+
+#: social-share-child/build/index.js:6 social-share-child/src/edit.js:339
+msgid "Enter address"
+msgstr "Введите адрес"
+
+#: social-share-child/build/index.js:6 social-share-child/src/edit.js:345
+msgid "Apply"
+msgstr "Применять"
+
+#: social-share-child/build/index.js:6 social-share-child/src/index.js:12
+msgid "Social Share Child"
+msgstr "Поделить в социальной сети, дочерняя кнопка"
+
+#: social-share-child/build/index.js:6 social-share-child/src/index.js:13
+msgid "Display an icon linking to a social media profile or website."
+msgstr ""
+"Отображать значок, указывающий на профиль в социальной сети или на веб-сайт."
+
+#: social-share/build/index.js:6 social-share/src/edit.js:29
+msgid "Horizontal"
+msgstr "По горизонтали"
+
+#: social-share/build/index.js:6 social-share/src/edit.js:30
+msgid "Vertical"
+msgstr "Вертикальный"
+
+#: social-share/build/index.js:6 social-share/src/edit.js:90
+msgid "Layout"
+msgstr "Макет"
+
+#: social-share/build/index.js:6 social-share/src/edit.js:100
+msgid "Stack on"
+msgstr "Стек на"
+
+#: social-share/build/index.js:6 social-share/src/edit.js:120
+msgid "is similar width"
+msgstr "аналогичная ширина"
+
+#: social-share/build/index.js:6 social-share/src/edit.js:126
+msgid "Icon width"
+msgstr "Ширина значка"
+
+#: social-share/build/index.js:6 social-share/src/edit.js:149
+msgid ""
+"Note: Border Radius option is useful when one adds background color to the "
+"icons."
+msgstr ""
+"Примечание. Параметр «Радиус границы» полезен при добавлении цвета фона к "
+"значкам."
+
+#: social-share/build/index.js:6 social-share/src/edit.js:153
+msgid "Gap between Items"
+msgstr "Отступ между элементами"
+
+#: social-share/build/index.js:6 social-share/src/edit.js:167
+msgid ""
+"Note: The gap between the items will seem larger in the editor, for better "
+"user edit experience.But at frontend the gap will be exactly what is set "
+"from here."
+msgstr ""
+"Примечание: зазор между элементами будет казаться больше в редакторе, чтобы "
+"пользователям было удобнее редактировать, но во внешнем интерфейсе зазор "
+"будет точно таким, как установлено здесь."
+
+#: social-share/build/index.js:6 social-share/src/edit.js:171
+msgid "Open links in new tab"
+msgstr "Открыть ссылки в новой вкладке"
+
+#: social-share/build/index.js:6 social-share/src/index.js:12
+msgid "Social Share"
+msgstr "Поделиться в социальной сети"
+
+#: social-share/build/index.js:6 social-share/src/index.js:13
+msgid "This block allows you to share posts/pages."
+msgstr "Этот блок позволяет вам делиться постами / страницами."
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:183
+msgid "General settings"
+msgstr "Глобальные настройки"
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:184
+msgid "Select the heading to consider when generating the table"
+msgstr "Выберите заголовок, который следует учитывать при создании таблицы"
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:187
+msgid "H1"
+msgstr ""
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:289
+msgid "Border style"
+msgstr "Стиль границы"
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:303
+msgid "Border width"
+msgstr "Ширина рамки"
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:337
+msgid "Custom Width"
+msgstr "Пользовательская ширина"
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:338
+msgid "Width will be auto if this is kept off."
+msgstr "Ширина будет автоматической, если она не будет отключена."
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:338
+msgid "No custom width."
+msgstr "Нет нестандартной ширины."
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:373
+msgid "Width"
+msgstr "Ширина"
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:401
+#: table-of-contents/src/edit.js:441
+msgid "Content"
+msgstr "Содержание"
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:402
+msgid "Heading"
+msgstr "Заголовок"
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:412
+msgid "Title align"
+msgstr "Выровнять заголовок"
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:423
+msgid "Bottom Space"
+msgstr "Нижнее пространство"
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/edit.js:459
+msgid "Content align"
+msgstr "Выравнивание содержимого"
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/index.js:12
+msgid "Table of Contents"
+msgstr "Оглавление"
+
+#: table-of-contents/build/index.js:6 table-of-contents/src/index.js:13
+msgid "This block allows you to place a Table of Contents for Pages/Posts."
+msgstr "Этот блок позволяет размещать оглавление для страниц / постов."

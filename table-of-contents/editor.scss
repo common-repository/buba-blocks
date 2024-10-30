@@ -1,0 +1,18 @@
+.buba{
+  &-table-of-contents{
+    &__panel{
+      &-settings{
+        .components-range-control{
+          .components-base-control__field{
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+div[data-type="buba-blocks/accordion"]{
+
+}

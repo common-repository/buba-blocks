@@ -1,0 +1,28 @@
+.buba-table-of-contents.wp-block-buba-blocks-table-of-contents {
+  display: inline-block;
+  margin: 0;
+}
+.buba-table-of-contents h3 {
+  margin: 0;
+}
+.buba-table-of-contents__list {
+  background: transparent;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+.buba-table-of-contents__list-item {
+  display: list-item;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .height-reset-tablet {
+    min-height: auto !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .height-reset-mobile {
+    min-height: auto !important;
+  }
+}

@@ -1,0 +1,27 @@
+@import "scss/_variables";
+
+
+.buba-blocks-textarea {
+  margin: 0;
+  padding: 0;
+
+  textarea {
+    resize: vertical;
+    outline: none !important;
+    width: 100% !important;
+    border-radius: var(--buba-blocks-textarea-borderRadius) !important;
+    border-color: var(--buba-blocks-textarea-borderColor) !important;
+    border-style: var(--buba-blocks-textarea-borderStyle) !important;
+    border-width: var(--buba-blocks-textarea-borderWidth) !important;
+    background: var(--buba-blocks-textarea-background) !important;
+    color: var(--buba-blocks-textarea-color) !important;
+    padding: var(--buba-blocks-textarea-padding) !important;
+    font-size: var(--buba-blocks-textarea-fontSize) !important;
+    min-height: var(--buba-blocks-textarea-height);
+
+    &::placeholder {
+      color: var(--buba-blocks-textarea-color) !important;
+      opacity: 0.6;
+    }
+  }
+}

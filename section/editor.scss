@@ -1,0 +1,41 @@
+.wp-block-buba-blocks-section .block-editor-block-list__layout{
+  z-index: 10;
+}
+.height-tab-panel{
+  margin-bottom: 24px;
+}
+.buba-scroll .block-editor-plain-text{
+  background: transparent;
+  text-transform: uppercase;
+}
+.wp-block.wp-block-buba-blocks-section.width-full{
+  max-width: 1200px;
+}
+.components-tab-panel__tab-content{
+  padding: 16px;
+  border: 1px solid #ddd;
+}
+.components-tab-panel__tabs-item.active-tab {
+  box-shadow: inset 0 1.5px #007cba;
+}
+.components-unit-control__select{
+  font-size: 12px;
+  font-weight: 700;
+  width: 35px;
+  top: 0;
+}
+.modal-open .image-popover{
+  display: none;
+}
+.image-popover .components-popover__content{
+  padding: 16px;
+  width: 300px;
+}
+
+.editor-styles-wrapper .width-full .wp-block {
+  max-width: 1200px;
+}
+
+.editor-styles-wrapper .width-custom .wp-block {
+  max-width: 100%;
+}

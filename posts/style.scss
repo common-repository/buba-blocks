@@ -1,0 +1,233 @@
+.wp-block-buba-blocks-posts{
+
+  img {
+    display: block;
+  }
+
+  &.is-masonry {
+    padding-left: 0;
+  }
+
+  &__masonry {
+    &-wrapper {
+      --masonry-gap: 20px;
+      --masonry-columns: 4;
+      --masonry-columns-table: 4;
+      --masonry-columns-mobile: 4;
+
+      margin-left: calc(var(--masonry-gap) * (-1)); 
+      margin-bottom: calc(var(--masonry-gap) * (-1));
+    } 
+
+    &-grid {
+      display: flex;
+      width: auto;
+    }
+  
+    &-column {
+      background-clip: padding-box;
+    }
+
+    &-item {
+      margin-bottom: var(--masonry-gap);
+      margin-left: var(--masonry-gap);
+      width: calc(100% / var(--masonry-columns) - var(--masonry-gap));
+      position: relative;
+
+      @media (max-width: 1100px) {
+        width: calc(100% / var(--masonry-columns-table) - var(--masonry-gap)); 
+      }
+      
+      @media (max-width: 700px) {
+        width: calc(100% / var(--masonry-columns-mobile) - var(--masonry-gap));
+      }
+    }
+
+    &-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, .3);
+      display: block;
+      z-index: 2;
+      pointer-events: none;
+    }
+    
+    &-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: calc(100% - 30px);
+      margin: 0;
+      color: white;
+      pointer-events: none;
+      z-index: 3;
+      text-align: center;
+
+      &>div {
+        color: white;
+      }
+    }
+
+    
+  }
+
+  &__list {
+    list-style: none;
+  }
+  li a>div {
+    display: inline;
+  }
+  &.is-grid{
+    display: flex;
+    padding: 0;
+      flex-wrap: wrap;
+    li{
+      margin: 0 1em 1.25em 0;
+    }
+    &.aligncenter{
+      justify-content: center;
+      margin-left: 0;
+    }
+    &.alignleft{
+      justify-content: flex-start;
+      float: none;
+    }
+    &.alignright{
+      justify-content: flex-end;
+      float: none;
+    }
+  }
+  &.columns{
+    &-2{
+      li{
+        @media (min-width: 600px) {
+          width: calc(100%/2 - 2em);
+        }
+      }
+    }
+    &-3{
+      li{
+        @media (min-width: 600px) {
+          width: calc(100%/3 - 2em);
+        }
+      }
+    }
+    &-4{
+      li{
+        @media (min-width: 600px) {
+          width: calc(100%/4 - 2em);
+        }
+      }
+    }
+    &-5{
+      li{
+        @media (min-width: 600px) {
+          width: calc(100%/5 - 1em);
+        }
+      }
+    }
+    &-6{
+      li{
+        @media (min-width: 600px) {
+          width: calc(100%/6 - 1.04167em);
+        }
+      }
+    }
+
+  }
+  &__post{
+    &-author,&-date{
+      display: block;
+      color: #555;
+      font-size: .8125em;
+    }
+    &-excerpt{
+      margin-top: .5em;
+      margin-bottom: 1em;
+    }
+    &-title{
+      margin-bottom: 15px;
+      a{
+        color: #3b3b3b;
+      }
+    }
+  }
+  &__featured-image{
+    &.alignleft{
+      margin-right: 1em;
+    }
+    &.aligncenter{
+      margin-bottom: 1em;
+      text-align: center;
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+    &.alignright{
+      margin-left: 1em;
+    }
+    img{
+      height: auto;
+      width: 100%;
+      object-fit: cover;
+    }
+    a{
+      display: inline-block;
+    }
+  }
+  &__item{
+    background: #e4e4e4;
+    padding: 0 20px;
+  }
+}
+
+.buba-blocks-slider {
+  --gap: 10px;
+
+  .slick-list {
+    margin-left: calc(var(--gap) * (-1));
+    margin-right: calc(var(--gap) * (-1));
+  }
+
+  .slick-arrow {
+    z-index: 1;
+  }
+
+  .slick-arrow, .slick-dots button {
+    background: transparent !important;
+  } 
+
+  .slick-track {
+    display: flex;
+  }
+
+  .slick-slide {
+    height: inherit;
+    display: flex !important;
+
+    &>div {
+      width: 100%;
+      height: inherit;
+      display: flex !important;
+    }
+  }
+
+  &__item {
+    padding: 0 var(--gap);
+    display: flex !important;
+
+    .wp-block-buba-blocks-posts__featured-image {
+      img {
+        display: inline;
+      }
+    }
+
+    &>div {
+      height: inherit;
+      width: 100%;
+    }
+  }
+}

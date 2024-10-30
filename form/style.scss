@@ -1,0 +1,9 @@
+@import "scss/_variables";
+
+
+.buba-blocks-form {
+  background: var(--buba-blocks-form-background);
+  padding: var(--buba-blocks-form-padding);
+  color: var(--buba-blocks-form-color);
+  border-radius: var(--buba-blocks-form-borderRadius);
+}

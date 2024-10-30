@@ -1,0 +1,38 @@
+.editor-styles-wrapper ul {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.slick-slide {
+  pointer-events: none;
+}
+
+.control-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.control-slider button {
+  width: 48%;
+}
+
+.components-number-control {
+  margin-bottom: 12px;
+}
+
+.gutenberg-slider .slick-dots {
+  bottom: 0 !important;
+}
+
+.gutenberg-slider .slick-dots li.slick-active button:before {
+  color: white;
+}
+
+.gutenberg-slider .slick-dots li button:before {
+  color: white;
+}

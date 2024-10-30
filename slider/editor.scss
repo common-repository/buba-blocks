@@ -1,0 +1,31 @@
+.editor-styles-wrapper ul{
+  padding-left: 0!important;
+  margin-left: 0!important;
+}
+.slick{
+  &-slide{
+    pointer-events: none;
+  }
+}
+.control-slider{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  button{
+    width: 48%;
+  }
+}
+.components-number-control{
+  margin-bottom: 12px;
+}
+.gutenberg-slider{
+  .slick-dots{
+    bottom: 0!important;
+     li.slick-active button:before {
+      color: white;
+    }
+    li button:before{
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Buba Blocks 1.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buba-blocks\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-10-05T11:48:05+00:00\n"
+"PO-Revision-Date: 2021-10-07 13:48+0300\n"
+"Language: ru\n"
+"X-Generator: Poedit 3.0\n"
+"X-Domain: buba-blocks\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#. Plugin Name of the plugin
+msgid "Buba Blocks"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://bitbucket.org/ecuras/buba-blocks/src/master/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This is a first Gutenberg plugin from Ecuras LLC."
+msgstr "Первый плагин от компании Ecuras LLC для редактора блоков Gutenberg."
+
+#. Author of the plugin
+msgid "Ecuras LLC"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://ecuras.com"
+msgstr ""
+
+#: index.php:37
+msgid "Buba"
+msgstr ""
+
+#: index.php:51
+msgctxt "Block pattern category"
+msgid "Sections"
+msgstr "Разделы"
+
+#: patterns/index.php:13
+msgid "Hero section"
+msgstr "Раздел «hero»"
+
+#: patterns/index.php:22
+msgid "CTA section"
+msgstr "Раздел «CTA»"
+
+#: posts/index.php:300
+#: posts/index.php:387
+#: posts/build/index.js:6
+msgid "(no title)"
+msgstr "(без названия)"
+
+#. translators: byline. %s: current author.
+#: posts/index.php:415
+#: posts/build/index.js:6
+msgid "by %s"
+msgstr "От %s"

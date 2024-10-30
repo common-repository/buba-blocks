@@ -1,0 +1,7 @@
+.buba-blocks-name-input {
+  input {
+    &:focus {
+      border-color: var(--buba-blocks-name-input-borderColor) !important;
+    }
+  }
+}

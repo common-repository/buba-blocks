@@ -1,0 +1,25 @@
+@import "scss/_variables";
+
+
+.buba-blocks-email-input {
+  margin: 0;
+  padding: 0;
+
+  input {
+    outline: none !important;
+    width: 100% !important;
+    border-radius: var(--buba-blocks-email-input-borderRadius) !important;
+    border-color: var(--buba-blocks-email-input-borderColor) !important;
+    border-style: var(--buba-blocks-email-input-borderStyle) !important;
+    border-width: var(--buba-blocks-email-input-borderWidth) !important;
+    background: var(--buba-blocks-email-input-background) !important;
+    color: var(--buba-blocks-email-input-color) !important;
+    padding: var(--buba-blocks-email-input-padding) !important;
+    font-size: var(--buba-blocks-email-input-fontSize) !important;
+
+    &::placeholder {
+      color: var(--buba-blocks-email-input-color) !important;
+      opacity: 0.6;
+    }
+  }
+}

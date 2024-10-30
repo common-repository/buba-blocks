@@ -1,0 +1,36 @@
+{
+  "name": "Telephone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Advanced form Block",
+  "author": "Ecuras LLC",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "block"
+  ],
+  "homepage": "https://github.com/WordPress/buba-blocks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WordPress/buba-blocks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WordPress/buba-blocks"
+  },
+  "main": "build/index.js",
+  "devDependencies": {
+    "@wordpress/scripts": "^9.0.0",
+    "concurrently": "^6.3.0",
+    "sass": "^1.43.2"
+  },
+  "scripts": {
+    "build": "concurrently \"wp-scripts build\" \"sass editor.scss editor.css -s compressed\" \"sass style.scss style.css -s compressed\"",
+    "format:js": "wp-scripts format-js",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "start": "concurrently \"wp-scripts start\" \"sass --watch editor.scss editor.css -s compressed\" \"sass --watch style.scss style.css -s compressed\""
+  },
+  "dependencies": {
+    "uuid": "^3.4.0"
+  }
+}

@@ -1,0 +1,41 @@
+.wp-block-buba-blocks-card{
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0,0,0,.12);
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e0e0e0;
+  border-radius: 4px;
+  height: 100%;
+  padding: 48px;
+  &.is-style-elevated{
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0,0,0,.12);
+  }
+  &.is-style-outline{
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0,0,0,.12);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    border-radius: 4px;
+  }
+}
+.wp-block-card__content{
+  padding: 16px;
+}
+.wp-block-card__media img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+.entry-content .wp-block-card__content{
+  h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+  }
+}
+.entry-content .wp-block-columns .wp-block-card__content{
+  h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+  }
+}

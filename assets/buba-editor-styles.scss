@@ -1,0 +1,119 @@
+$less: 360px !default; // window size < 360px
+$xx: 440px !default; // window size < 440px
+$xs: 576px !default; // window size < 560px
+$exs: 700px !default; // window size < 700px
+$sm: 768px !default; // window size < 780px
+$smd: 960px !default; // window size < 960px
+$md: 1024px !default; // window size < 1024px
+$lg: 1280px !default; // window size < 1280px
+$xlg: 1400px !default; // window size < 1400px
+$xl: 1600px !default; // window size < 1600px
+$xxl: 1800px !default; // window size < 1800px
+
+@import "scss/root";
+
+:root {
+  --buba-blocks-editor-content-width: 1000px;
+}
+
+// Styles for content
+.is-root-container {
+  max-width: var(--buba-blocks-editor-content-width) !important;
+  margin-left: auto !important; 
+  margin-right: auto !important;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wp-block {
+  max-width: var(--buba-blocks-editor-content-width);
+  width: 100%;
+  margin-top: 0; 
+  margin-bottom: 0;
+  box-sizing: border-box !important;
+}
+
+// Styles for columns block
+.wp-block-columns {
+  &:not(.wp-block-column) {
+    margin-left: calc(var(--buba-blocks-column-gap) * (-1));
+    margin-right: calc(var(--buba-blocks-column-gap) * (-1));
+    width: calc(100% + var(--buba-blocks-column-gap) * 2);
+    max-width: none;
+  }
+
+  .wp-block-column {
+    margin-left: 0 !important;
+    padding-left: var(--buba-blocks-column-gap);
+    padding-right: var(--buba-blocks-column-gap);
+  }
+}
+
+
+// Styles for image block
+.wp-block-image {
+
+  img {
+    object-fit: cover;
+  }
+
+  .components-resizable-box__container {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: $xl ) {
+  :root {
+    --buba-blocks-editor-content-width: 840px;
+  }
+}
+
+// Custom Inspector entites
+.buba-blocks-box-edit {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+
+  &.disabled {
+    display: none;
+  }
+}
+
+.buba-blocks-side-box {
+  border-color: #e0e0e0;
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+}
+
+.components-custom-gradient-picker {
+  .css-lat3nu-Flex-ItemsRow {
+    align-items: normal;
+    flex-direction: column;
+  }
+  
+  .css-lat3nu-Flex-ItemsRow > * + :not(marquee) {
+    margin-left: 0; 
+  }
+
+  .components-number-control {
+    margin-bottom: 0;
+  }
+}
+
+.buba-blocks-menu-item-disabled {
+  pointer-events: none;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    z-index: 1;
+    opacity: 0.5;
+  }
+}

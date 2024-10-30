@@ -1,0 +1,1937 @@
+# Copyright (C) 2021 Ecuras LLC
+# This file is distributed under the same license as the Buba Blocks plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Buba Blocks 1.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buba-blocks\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-10-05T11:48:05+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: buba-blocks\n"
+
+#. Plugin Name of the plugin
+msgid "Buba Blocks"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://bitbucket.org/ecuras/buba-blocks/src/master/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This is a first Gutenberg plugin from Ecuras LLC."
+msgstr ""
+
+#. Author of the plugin
+msgid "Ecuras LLC"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://ecuras.com"
+msgstr ""
+
+#: index.php:37
+msgid "Buba"
+msgstr ""
+
+#: index.php:51
+msgctxt "Block pattern category"
+msgid "Sections"
+msgstr ""
+
+#: patterns/index.php:13
+msgid "Hero section"
+msgstr ""
+
+#: patterns/index.php:22
+msgid "CTA section"
+msgstr ""
+
+#: posts/index.php:300
+#: posts/index.php:387
+#: posts/build/index.js:6
+msgid "(no title)"
+msgstr ""
+
+#. translators: byline. %s: current author.
+#: posts/index.php:415
+#: posts/build/index.js:6
+msgid "by %s"
+msgstr ""
+
+#: accordion/build/index.js:6
+#: components/border-control.js:40
+#: section/build/index.js:8
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:287
+msgid "Border"
+msgstr ""
+
+#: accordion/build/index.js:6
+#: accordion/src/edit.js:133
+#: components/border-control.js:51
+#: section/build/index.js:8
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:325
+msgid "Border color"
+msgstr ""
+
+#: accordion/build/index.js:6
+#: accordion/src/edit.js:66
+#: slider-images/build/index.js:6
+#: slider-images/src/edit.js:349
+msgid "Main settings"
+msgstr ""
+
+#: accordion/build/index.js:6
+#: accordion/src/edit.js:90
+msgid "Style settings"
+msgstr ""
+
+#: accordion/build/index.js:6
+#: accordion/src/edit.js:100
+#: button/build/index.js:6
+#: button/src/edit.js:96
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:135
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:315
+msgid "Border radius"
+msgstr ""
+
+#: accordion/build/index.js:6
+#: accordion/src/edit.js:107
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:433
+msgid "Title color"
+msgstr ""
+
+#: accordion/build/index.js:6
+#: accordion/src/edit.js:113
+#: accordion/src/edit.js:127
+#: button/build/index.js:6
+#: button/src/color-edit.js:219
+#: posts/build/index.js:6
+#: posts/src/card-edit.js:69
+msgid "Background color"
+msgstr ""
+
+#: accordion/build/index.js:6
+#: accordion/src/edit.js:119
+msgid "Open style settings"
+msgstr ""
+
+#: accordion/build/index.js:6
+#: accordion/src/edit.js:148
+msgid "Accordion Title"
+msgstr ""
+
+#: accordion/build/index.js:6
+#: accordion/src/index.js:12
+msgid "Accordion"
+msgstr ""
+
+#: accordion/build/index.js:6
+#: accordion/src/index.js:73
+msgid "title."
+msgstr ""
+
+#: accordion/build/index.js:6
+#: accordion/src/index.js:80
+#: card/build/index.js:6
+#: card/src/index.js:109
+msgid "— Kobayashi Issa (一茶)"
+msgstr ""
+
+#: accordion/src/inspector.js:31
+msgid "Accordion settings"
+msgstr ""
+
+#: assets/fontSizes.js:5
+#: info-box/src/edit.js:201
+#: info-box/src/edit.js:211
+#: info-box/src/edit.js:273
+#: info-box/src/edit.js:284
+#: info-box/src/edit.js:314
+#: posts/build/index.js:6
+#: posts/src/card-edit.js:21
+#: posts/src/card-edit.js:27
+#: posts/src/card-edit.js:33
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:34
+#: table-of-contents/build/index.js:6
+msgid "Small"
+msgstr ""
+
+#: assets/fontSizes.js:10
+#: info-box/src/edit.js:315
+#: posts/build/index.js:6
+#: posts/src/card-edit.js:22
+#: posts/src/card-edit.js:28
+#: posts/src/card-edit.js:34
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:35
+#: table-of-contents/build/index.js:6
+msgid "Normal"
+msgstr ""
+
+#: assets/fontSizes.js:15
+#: info-box/src/edit.js:202
+#: info-box/src/edit.js:212
+#: info-box/src/edit.js:274
+#: info-box/src/edit.js:285
+#: info-box/src/edit.js:316
+#: table-of-contents/build/index.js:6
+msgid "Medium"
+msgstr ""
+
+#: assets/fontSizes.js:20
+#: table-of-contents/build/index.js:6
+msgid "Big"
+msgstr ""
+
+#: assets/fontSizes.js:25
+#: posts/build/index.js:6
+#: posts/src/card-edit.js:24
+#: posts/src/card-edit.js:30
+#: posts/src/card-edit.js:36
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:37
+#: table-of-contents/build/index.js:6
+msgid "Huge"
+msgstr ""
+
+#: assets/languages.js:4
+#: map/build/index.js:6
+msgid "Afrikaans"
+msgstr ""
+
+#: assets/languages.js:5
+#: map/build/index.js:6
+msgid "Albanian"
+msgstr ""
+
+#: assets/languages.js:6
+#: map/build/index.js:6
+msgid "Amharic"
+msgstr ""
+
+#: assets/languages.js:7
+#: map/build/index.js:6
+msgid "Arabic"
+msgstr ""
+
+#: assets/languages.js:8
+#: map/build/index.js:6
+msgid "Armenian"
+msgstr ""
+
+#: assets/languages.js:9
+#: map/build/index.js:6
+msgid "Azerbaijani"
+msgstr ""
+
+#: assets/languages.js:10
+#: map/build/index.js:6
+msgid "Basque"
+msgstr ""
+
+#: assets/languages.js:11
+#: map/build/index.js:6
+msgid "Belarusian"
+msgstr ""
+
+#: assets/languages.js:12
+#: map/build/index.js:6
+msgid "Bengali"
+msgstr ""
+
+#: assets/languages.js:13
+#: map/build/index.js:6
+msgid "Bosnian"
+msgstr ""
+
+#: assets/languages.js:14
+#: map/build/index.js:6
+msgid "Bulgarian"
+msgstr ""
+
+#: assets/languages.js:15
+#: map/build/index.js:6
+msgid "Burmese"
+msgstr ""
+
+#: assets/languages.js:16
+#: map/build/index.js:6
+msgid "Catalan"
+msgstr ""
+
+#: assets/languages.js:17
+#: map/build/index.js:6
+msgid "Chinese"
+msgstr ""
+
+#: assets/languages.js:18
+#: map/build/index.js:6
+msgid "Croatian"
+msgstr ""
+
+#: assets/languages.js:19
+#: map/build/index.js:6
+msgid "Czech"
+msgstr ""
+
+#: assets/languages.js:20
+#: map/build/index.js:6
+msgid "Danish"
+msgstr ""
+
+#: assets/languages.js:21
+#: map/build/index.js:6
+msgid "Dutch"
+msgstr ""
+
+#: assets/languages.js:22
+#: map/build/index.js:6
+msgid "English"
+msgstr ""
+
+#: assets/languages.js:23
+#: map/build/index.js:6
+msgid "Estonian"
+msgstr ""
+
+#: assets/languages.js:24
+#: map/build/index.js:6
+msgid "Farsi"
+msgstr ""
+
+#: assets/languages.js:25
+#: map/build/index.js:6
+msgid "Finnish"
+msgstr ""
+
+#: assets/languages.js:26
+#: map/build/index.js:6
+msgid "French"
+msgstr ""
+
+#: assets/languages.js:27
+#: map/build/index.js:6
+msgid "Galician"
+msgstr ""
+
+#: assets/languages.js:28
+#: map/build/index.js:6
+msgid "Georgian"
+msgstr ""
+
+#: assets/languages.js:29
+#: map/build/index.js:6
+msgid "German"
+msgstr ""
+
+#: assets/languages.js:30
+#: map/build/index.js:6
+msgid "Greek"
+msgstr ""
+
+#: assets/languages.js:31
+#: map/build/index.js:6
+msgid "Gujarati"
+msgstr ""
+
+#: assets/languages.js:32
+#: map/build/index.js:6
+msgid "Hebrew"
+msgstr ""
+
+#: assets/languages.js:33
+#: map/build/index.js:6
+msgid "Hindi"
+msgstr ""
+
+#: assets/languages.js:34
+#: map/build/index.js:6
+msgid "Hungarian"
+msgstr ""
+
+#: assets/languages.js:35
+#: map/build/index.js:6
+msgid "Icelandic"
+msgstr ""
+
+#: assets/languages.js:36
+#: map/build/index.js:6
+msgid "Indonesian"
+msgstr ""
+
+#: assets/languages.js:37
+#: map/build/index.js:6
+msgid "Italian"
+msgstr ""
+
+#: assets/languages.js:38
+#: map/build/index.js:6
+msgid "Japanese"
+msgstr ""
+
+#: assets/languages.js:39
+#: map/build/index.js:6
+msgid "Kannada"
+msgstr ""
+
+#: assets/languages.js:40
+#: map/build/index.js:6
+msgid "Kazakh"
+msgstr ""
+
+#: assets/languages.js:41
+#: map/build/index.js:6
+msgid "Khmer"
+msgstr ""
+
+#: assets/languages.js:42
+#: map/build/index.js:6
+msgid "Korean"
+msgstr ""
+
+#: assets/languages.js:43
+#: map/build/index.js:6
+msgid "Kyrgyz"
+msgstr ""
+
+#: assets/languages.js:44
+#: map/build/index.js:6
+msgid "Lao"
+msgstr ""
+
+#: assets/languages.js:45
+#: map/build/index.js:6
+msgid "Latvian"
+msgstr ""
+
+#: assets/languages.js:46
+#: map/build/index.js:6
+msgid "Lithuanian"
+msgstr ""
+
+#: assets/languages.js:47
+#: map/build/index.js:6
+msgid "Macedonian"
+msgstr ""
+
+#: assets/languages.js:48
+#: map/build/index.js:6
+msgid "Malay"
+msgstr ""
+
+#: assets/languages.js:49
+#: map/build/index.js:6
+msgid "Malayalam"
+msgstr ""
+
+#: assets/languages.js:50
+#: map/build/index.js:6
+msgid "Marathi"
+msgstr ""
+
+#: assets/languages.js:51
+#: map/build/index.js:6
+msgid "Mongolian"
+msgstr ""
+
+#: assets/languages.js:52
+#: map/build/index.js:6
+msgid "Nepali"
+msgstr ""
+
+#: assets/languages.js:53
+#: map/build/index.js:6
+msgid "Norwegian"
+msgstr ""
+
+#: assets/languages.js:54
+#: map/build/index.js:6
+msgid "Polish"
+msgstr ""
+
+#: assets/languages.js:55
+#: map/build/index.js:6
+msgid "Portuguese"
+msgstr ""
+
+#: assets/languages.js:56
+#: map/build/index.js:6
+msgid "Punjabi"
+msgstr ""
+
+#: assets/languages.js:57
+#: map/build/index.js:6
+msgid "Romanian"
+msgstr ""
+
+#: assets/languages.js:58
+#: map/build/index.js:6
+msgid "Russian"
+msgstr ""
+
+#: assets/languages.js:59
+#: map/build/index.js:6
+msgid "Serbian"
+msgstr ""
+
+#: assets/languages.js:60
+#: map/build/index.js:6
+msgid "Sinhalese"
+msgstr ""
+
+#: assets/languages.js:61
+#: map/build/index.js:6
+msgid "Slovak"
+msgstr ""
+
+#: assets/languages.js:62
+#: map/build/index.js:6
+msgid "Slovenian"
+msgstr ""
+
+#: assets/languages.js:63
+#: map/build/index.js:6
+msgid "Spanish"
+msgstr ""
+
+#: assets/languages.js:64
+#: map/build/index.js:6
+msgid "Swahili"
+msgstr ""
+
+#: assets/languages.js:65
+#: map/build/index.js:6
+msgid "Swedish"
+msgstr ""
+
+#: assets/languages.js:66
+#: map/build/index.js:6
+msgid "Tamil"
+msgstr ""
+
+#: assets/languages.js:67
+#: map/build/index.js:6
+msgid "Telugu"
+msgstr ""
+
+#: assets/languages.js:68
+#: map/build/index.js:6
+msgid "Thai"
+msgstr ""
+
+#: assets/languages.js:69
+#: map/build/index.js:6
+msgid "Turkish"
+msgstr ""
+
+#: assets/languages.js:70
+#: map/build/index.js:6
+msgid "Ukrainian"
+msgstr ""
+
+#: assets/languages.js:71
+#: map/build/index.js:6
+msgid "Urdu"
+msgstr ""
+
+#: assets/languages.js:72
+#: map/build/index.js:6
+msgid "Uzbek"
+msgstr ""
+
+#: assets/languages.js:73
+#: map/build/index.js:6
+msgid "Vietnamese"
+msgstr ""
+
+#: assets/languages.js:74
+#: map/build/index.js:6
+msgid "Zulu"
+msgstr ""
+
+#: assets/socialLinks.js:3
+#: social-share-child/build/index.js:6
+msgid "Facebook"
+msgstr ""
+
+#: assets/socialLinks.js:4
+#: social-share-child/build/index.js:6
+msgid "Twitter"
+msgstr ""
+
+#: assets/socialLinks.js:5
+#: social-share-child/build/index.js:6
+msgid "Google Currents"
+msgstr ""
+
+#: assets/socialLinks.js:6
+#: social-share-child/build/index.js:6
+msgid "Pinterest"
+msgstr ""
+
+#: assets/socialLinks.js:7
+#: social-share-child/build/index.js:6
+msgid "LinkedIn"
+msgstr ""
+
+#: assets/socialLinks.js:8
+#: social-share-child/build/index.js:6
+msgid "Blogger"
+msgstr ""
+
+#: assets/socialLinks.js:9
+#: social-share-child/build/index.js:6
+msgid "Reddit"
+msgstr ""
+
+#: assets/socialLinks.js:10
+#: social-share-child/build/index.js:6
+msgid "StumbleUpon"
+msgstr ""
+
+#: assets/socialLinks.js:11
+#: social-share-child/build/index.js:6
+msgid "Tumblr"
+msgstr ""
+
+#: assets/socialLinks.js:12
+#: social-share-child/build/index.js:6
+msgid "Email"
+msgstr ""
+
+#: assets/socialLinks.js:13
+#: social-share-child/build/index.js:6
+msgid "Skype"
+msgstr ""
+
+#: assets/socialLinks.js:14
+#: social-share-child/build/index.js:6
+msgid "Xing"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/color-edit.js:71
+#: components/slider-arrows.js:73
+#: container/build/index.js:8
+#: container/src/color-edit.js:105
+#: posts/build/index.js:6
+#: section/build/index.js:8
+#: section/src/color-edit.js:105
+#: slider-images/build/index.js:6
+msgid "Color"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/color-edit.js:210
+#: posts/build/index.js:6
+#: posts/src/card-edit.js:75
+msgid "Text color"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:61
+msgid "Width settings"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:62
+msgid "Button width"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:93
+msgid "Border settings"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:131
+msgid "Icon settings"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:137
+msgid "Icon position"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:199
+msgid "Link"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:208
+msgid "Unlink"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:331
+msgid "Add text…"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:374
+msgid "Hover settings"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:376
+msgid "Text:"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:382
+msgid "Background:"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:388
+msgid "Duration(ms):"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:396
+msgid "Padding settings"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:416
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:169
+msgid "Link settings"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:418
+msgid "Open in new tab"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/edit.js:423
+msgid "Link rel"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/index.js:11
+msgid "Button"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/index.js:110
+msgid "Call to Action"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/index.js:115
+msgid "Fill"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/index.js:116
+#: card/build/index.js:6
+#: card/src/index.js:116
+msgid "Outline"
+msgstr ""
+
+#: button/build/index.js:6
+#: button/src/index.js:117
+msgid "Text"
+msgstr ""
+
+#: card/build/index.js:6
+#: card/src/media-container.js:71
+#: slider/src/media-container.js:71
+msgid "Media area"
+msgstr ""
+
+#: card/build/index.js:6
+#: card/src/edit.js:149
+msgid "Media & Text settings"
+msgstr ""
+
+#: card/build/index.js:6
+#: card/src/edit.js:151
+msgid "Stack on mobile"
+msgstr ""
+
+#: card/build/index.js:6
+#: card/src/edit.js:162
+msgid "Alt text (alternative text)"
+msgstr ""
+
+#: card/build/index.js:6
+#: card/src/edit.js:168
+msgid "Describe the purpose of the image"
+msgstr ""
+
+#: card/build/index.js:6
+#: card/src/edit.js:170
+msgid "Leave empty if the image is purely decorative."
+msgstr ""
+
+#: card/build/index.js:6
+#: card/src/edit.js:180
+msgid "Height(px)"
+msgstr ""
+
+#: card/build/index.js:6
+#: card/src/index.js:14
+msgid "Card"
+msgstr ""
+
+#: card/build/index.js:6
+#: card/src/index.js:100
+msgid "Card Title."
+msgstr ""
+
+#: card/build/index.js:6
+#: card/src/index.js:115
+msgid "Elevated (shadowed)"
+msgstr ""
+
+#: components/slider-arrows.js:53
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Arrows"
+msgstr ""
+
+#: components/slider-arrows.js:59
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:110
+msgid "Size"
+msgstr ""
+
+#: components/slider-arrows.js:67
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Duration"
+msgstr ""
+
+#: components/slider-arrows.js:79
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Hover color"
+msgstr ""
+
+#: components/slider-edit.js:101
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Slider setting"
+msgstr ""
+
+#: components/slider-edit.js:107
+#: posts/build/index.js:6
+#: posts/src/masonry-edit.js:63
+#: section/build/index.js:8
+#: section/src/edit.js:242
+#: slider-images/build/index.js:6
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:42
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:353
+msgid "Desktop"
+msgstr ""
+
+#: components/slider-edit.js:112
+#: posts/build/index.js:6
+#: posts/src/masonry-edit.js:68
+#: section/build/index.js:8
+#: section/src/edit.js:247
+#: slider-images/build/index.js:6
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:43
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:358
+msgid "Tablet"
+msgstr ""
+
+#: components/slider-edit.js:117
+#: posts/build/index.js:6
+#: posts/src/masonry-edit.js:73
+#: section/build/index.js:8
+#: section/src/edit.js:252
+#: slider-images/build/index.js:6
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:44
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:363
+msgid "Mobile"
+msgstr ""
+
+#: components/slider-edit.js:127
+#: components/slider-edit.js:147
+#: components/slider-edit.js:185
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Slides to show"
+msgstr ""
+
+#: components/slider-edit.js:135
+#: components/slider-edit.js:164
+#: components/slider-edit.js:200
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Slides to scroll"
+msgstr ""
+
+#: components/slider-edit.js:221
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+#: slider/build/index.js:6
+msgid "Speed"
+msgstr ""
+
+#: components/slider-edit.js:229
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Gap between slider elements"
+msgstr ""
+
+#: components/slider-edit.js:236
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Dots navigation"
+msgstr ""
+
+#: components/slider-edit.js:241
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Arrows navigation"
+msgstr ""
+
+#: components/slider-edit.js:254
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+#: slider/build/index.js:6
+msgid "Infinite"
+msgstr ""
+
+#: components/slider-edit.js:259
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Center mode"
+msgstr ""
+
+#: components/slider-edit.js:265
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+msgid "Center padding"
+msgstr ""
+
+#: components/slider-edit.js:273
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+#: slider/build/index.js:6
+msgid "Fade"
+msgstr ""
+
+#: components/slider-edit.js:288
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+#: slider/build/index.js:6
+msgid "Autoplay"
+msgstr ""
+
+#: components/slider-edit.js:294
+#: posts/build/index.js:6
+#: slider-images/build/index.js:6
+#: slider/build/index.js:6
+msgid "Autoplay speed"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/color-edit.js:98
+#: section/build/index.js:8
+#: section/src/color-edit.js:98
+msgid "Overlay"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/color-edit.js:111
+#: section/build/index.js:8
+#: section/src/color-edit.js:111
+msgid "Opacity"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:132
+#: section/build/index.js:8
+#: section/src/edit.js:135
+msgid "Value (px):"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:159
+#: map/build/index.js:6
+#: map/src/edit.js:74
+#: posts/build/index.js:6
+#: section/build/index.js:8
+#: section/src/edit.js:191
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:88
+msgid "General"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:164
+#: section/build/index.js:8
+#: section/src/edit.js:196
+msgid "Style"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:174
+msgid "Max container inside width (px)"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:183
+#: section/build/index.js:8
+#: section/src/edit.js:232
+msgid "Auto"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:190
+#: section/build/index.js:8
+#: section/src/edit.js:320
+#: social-share-child/build/index.js:6
+#: social-share-child/src/edit.js:284
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:251
+msgid "Background"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:202
+#: section/build/index.js:8
+#: section/src/edit.js:332
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:261
+msgid "Padding"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:216
+#: section/build/index.js:8
+#: section/src/edit.js:346
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:274
+msgid "Margin"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:263
+#: container/src/edit.js:357
+#: section/build/index.js:8
+#: section/src/edit.js:445
+#: section/src/edit.js:539
+msgid "Background image"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:275
+#: section/build/index.js:8
+#: section/src/edit.js:457
+#: slider-images/build/index.js:6
+#: slider-images/src/gallery-image.js:267
+#: social-share-child/build/index.js:6
+#: social-share-child/src/edit.js:272
+msgid "Replace image"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:280
+#: section/build/index.js:8
+#: section/src/edit.js:462
+#: slider-images/build/index.js:6
+#: slider-images/src/gallery-image.js:273
+msgid "Remove image"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:283
+#: section/build/index.js:8
+#: section/src/edit.js:465
+msgid "Background Position"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:312
+#: section/build/index.js:8
+#: section/src/edit.js:494
+msgid "Background Size"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:324
+#: section/build/index.js:8
+#: section/src/edit.js:506
+msgid "Background Attachment"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:336
+#: section/build/index.js:8
+#: section/src/edit.js:518
+msgid "Background Repeat"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/edit.js:469
+#: social-share-child/build/index.js:6
+#: social-share-child/src/edit.js:65
+msgid "Image"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/index.js:12
+msgid "Container"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/index.js:29
+#: section/build/index.js:8
+#: section/src/index.js:47
+msgid "Padding Top"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/index.js:34
+#: section/build/index.js:8
+#: section/src/index.js:52
+msgid "Padding Right"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/index.js:40
+#: section/build/index.js:8
+#: section/src/index.js:58
+msgid "Padding Bottom"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/index.js:46
+#: section/build/index.js:8
+#: section/src/index.js:64
+msgid "Padding Left"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/index.js:53
+#: section/build/index.js:8
+#: section/src/index.js:71
+msgid "Margin Top"
+msgstr ""
+
+#: container/build/index.js:8
+#: container/src/index.js:58
+#: section/build/index.js:8
+#: section/src/index.js:82
+msgid "Margin Bottom"
+msgstr ""
+
+#: info-box/src/edit.js:65
+msgid "Icon size(px):"
+msgstr ""
+
+#: info-box/src/edit.js:67
+msgid "Icon width(px):"
+msgstr ""
+
+#: info-box/src/edit.js:76
+msgid "Blue-sky"
+msgstr ""
+
+#: info-box/src/edit.js:77
+msgid "Green"
+msgstr ""
+
+#: info-box/src/edit.js:78
+msgid "Orange"
+msgstr ""
+
+#: info-box/src/edit.js:117
+msgid "Select icon"
+msgstr ""
+
+#: info-box/src/edit.js:132
+msgid "Reset icon"
+msgstr ""
+
+#: info-box/src/edit.js:137
+msgid "Same width and height"
+msgstr ""
+
+#: info-box/src/edit.js:155
+msgid "Icon padding:"
+msgstr ""
+
+#: info-box/src/edit.js:178
+msgid "Select image"
+msgstr ""
+
+#: info-box/src/edit.js:193
+msgid "Reset image"
+msgstr ""
+
+#: info-box/src/edit.js:198
+msgid "Image margin bottom:"
+msgstr ""
+
+#: info-box/src/edit.js:203
+#: info-box/src/edit.js:213
+#: info-box/src/edit.js:275
+#: info-box/src/edit.js:286
+#: info-box/src/edit.js:317
+#: posts/build/index.js:6
+#: posts/src/card-edit.js:23
+#: posts/src/card-edit.js:29
+#: posts/src/card-edit.js:35
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:36
+msgid "Large"
+msgstr ""
+
+#: info-box/src/edit.js:208
+msgid "Image height:"
+msgstr ""
+
+#: info-box/src/edit.js:224
+msgid "Icon height(px):"
+msgstr ""
+
+#: info-box/src/edit.js:235
+msgid "Header settings"
+msgstr ""
+
+#: info-box/src/edit.js:237
+msgid "Select image/icon"
+msgstr ""
+
+#: info-box/src/edit.js:246
+msgid "Title settings"
+msgstr ""
+
+#: info-box/src/edit.js:248
+msgid "Title tag:"
+msgstr ""
+
+#: info-box/src/edit.js:251
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:198
+msgid "H2"
+msgstr ""
+
+#: info-box/src/edit.js:252
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:209
+msgid "H3"
+msgstr ""
+
+#: info-box/src/edit.js:253
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:220
+msgid "H4"
+msgstr ""
+
+#: info-box/src/edit.js:254
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:231
+msgid "H5"
+msgstr ""
+
+#: info-box/src/edit.js:255
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:242
+msgid "H6"
+msgstr ""
+
+#: info-box/src/edit.js:263
+#: info-box/src/edit.js:304
+msgid "Left"
+msgstr ""
+
+#: info-box/src/edit.js:264
+#: info-box/src/edit.js:305
+msgid "Right"
+msgstr ""
+
+#: info-box/src/edit.js:265
+#: info-box/src/edit.js:306
+msgid "Center"
+msgstr ""
+
+#: info-box/src/edit.js:270
+msgid "Title margin bottom:"
+msgstr ""
+
+#: info-box/src/edit.js:280
+msgid "Title padding bottom:"
+msgstr ""
+
+#: info-box/src/edit.js:283
+#: slider-images/build/index.js:6
+#: slider-images/src/edit.js:51
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:41
+msgid "None"
+msgstr ""
+
+#: info-box/src/edit.js:291
+msgid "Title decoration line"
+msgstr ""
+
+#: info-box/src/edit.js:299
+msgid "Text settings"
+msgstr ""
+
+#: info-box/src/edit.js:301
+msgid "Text position:"
+msgstr ""
+
+#: info-box/src/edit.js:311
+msgid "Text size:"
+msgstr ""
+
+#: info-box/src/edit.js:318
+msgid "Extra-large"
+msgstr ""
+
+#: info-box/src/index.js:12
+msgid "Info box"
+msgstr ""
+
+#: info-box/src/index.js:13
+msgid "This block allows adding a heading prefix, heading, description, icon and more."
+msgstr ""
+
+#: map/build/index.js:6
+#: map/src/edit.js:41
+msgid "Map height"
+msgstr ""
+
+#: map/build/index.js:6
+#: map/src/edit.js:78
+msgid "This block uses Google Maps API key to display the map."
+msgstr ""
+
+#: map/build/index.js:6
+#: map/src/edit.js:101
+msgid "Zoom"
+msgstr ""
+
+#: map/build/index.js:6
+#: map/src/edit.js:112
+msgid "Language"
+msgstr ""
+
+#: map/build/index.js:6
+#: map/src/index.js:12
+msgid "Map"
+msgstr ""
+
+#: map/build/index.js:6
+#: map/src/index.js:13
+msgid "This block allows you to place a Google Map location."
+msgstr ""
+
+#: posts/build/index.js:6
+#: posts/src/constants.js:7
+msgid "Posts"
+msgstr ""
+
+#: posts/build/index.js:6
+#: posts/src/constants.js:8
+msgid "Pages"
+msgstr ""
+
+#: posts/build/index.js:6
+#: posts/src/masonry-edit.js:56
+msgid "Masonry settings"
+msgstr ""
+
+#: posts/build/index.js:6
+#: posts/src/masonry-edit.js:82
+#: posts/src/masonry-edit.js:91
+#: posts/src/masonry-edit.js:100
+msgid "Number of columns"
+msgstr ""
+
+#: posts/build/index.js:6
+#: posts/src/masonry-edit.js:112
+msgid "Have a title?"
+msgstr ""
+
+#: posts/build/index.js:6
+#: posts/src/masonry-edit.js:117
+msgid "Masonry gap"
+msgstr ""
+
+#: posts/build/index.js:6
+#: posts/src/card-edit.js:18
+msgid "Extra-less"
+msgstr ""
+
+#: posts/build/index.js:6
+#: posts/src/card-edit.js:19
+msgid "Less"
+msgstr ""
+
+#: posts/build/index.js:6
+#: posts/src/card-edit.js:20
+msgid "Extra-small"
+msgstr ""
+
+#: posts/build/index.js:6
+#: posts/src/card-edit.js:67
+msgid "Card style setting"
+msgstr ""
+
+#: posts/build/index.js:6
+#: posts/src/card-edit.js:81
+msgid "Title size"
+msgstr ""
+
+#: posts/build/index.js:6
+#: posts/src/card-edit.js:87
+msgid "Text size"
+msgstr ""
+
+#: posts/build/index.js:6
+#: posts/src/card-edit.js:93
+msgid "Another text size"
+msgstr ""
+
+#: posts/build/index.js:6
+#: posts/src/index.js:11
+msgid "Posts Grid"
+msgstr ""
+
+#: posts/build/index.js:6
+#: posts/src/index.js:12
+msgid "This block allows you to display a list of your posts pr pages in a grid layout."
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Post type"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Post content settings"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Post content"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Show:"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Excerpt"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Full post"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Max number of words in excerpt"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Post meta settings"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Display author name"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Display post date"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Featured image settings"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Display featured image"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Image alignment"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Add link to featured image"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Sorting and filtering"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Columns"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "No posts found."
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "List view"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Grid view"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Masonry view"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Slider view"
+msgstr ""
+
+#: posts/build/index.js:6
+msgid " … "
+msgstr ""
+
+#: posts/build/index.js:6
+msgid "Read more"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/edit.js:201
+msgid "Advanced"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/edit.js:211
+msgid "Content Area Width"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/edit.js:223
+msgid "Width(px)"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/edit.js:268
+msgid "Reset height on tablet"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/edit.js:277
+msgid "Reset height on mobile"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/edit.js:289
+msgid "Show scroll down button"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/edit.js:296
+msgid "Scroll Down Text"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/edit.js:302
+msgid "Left position"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/edit.js:308
+msgid "Bottom position"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/edit.js:369
+msgid "Animation"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/edit.js:371
+msgid "Animation Effect:"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/edit.js:377
+msgid "Duration:"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/edit.js:388
+msgid "Delay (ms):"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/edit.js:417
+msgid "Section min Height"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/index.js:12
+msgid "Section"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/index.js:76
+msgid "Margin Right"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/index.js:88
+msgid "Margin Left"
+msgstr ""
+
+#: section/build/index.js:8
+#: section/src/index.js:171
+msgid "Scroll Down"
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/gallery-image.js:238
+msgid "Edit slider image"
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/gallery-image.js:251
+msgid "Move image backward"
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/gallery-image.js:258
+msgid "Move image forward"
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/gallery-image.js:281
+msgid "Write caption…"
+msgstr ""
+
+#. translators: 1: the order number of the image. 2: the total number of images.
+#: slider-images/build/index.js:6
+#: slider-images/src/gallery.js:85
+msgid "image %1$d of %2$d in gallery"
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/gallery.js:125
+msgid "Write gallery caption…"
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/edit.js:49
+msgid "Attachment Page"
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/edit.js:50
+msgid "Media File"
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/edit.js:56
+msgid "Drag images, upload new ones or select files from your library."
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/edit.js:59
+msgid "ADD MEDIA"
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/edit.js:323
+#: slider-images/src/index.js:12
+msgid "Slider images"
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/edit.js:351
+msgid "Crop images"
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/edit.js:221
+msgid "Thumbnails are cropped to align."
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/edit.js:222
+msgid "Thumbnails are not cropped."
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/edit.js:357
+msgid "Link to"
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/edit.js:364
+msgid "Image size"
+msgstr ""
+
+#: slider-images/build/index.js:6
+#: slider-images/src/index.js:13
+msgid "Display multiple images in a slider."
+msgstr ""
+
+#: slider/build/index.js:6
+msgid "Slider settings"
+msgstr ""
+
+#: slider/build/index.js:6
+msgid "Show arrows"
+msgstr ""
+
+#: slider/build/index.js:6
+msgid "Show dots"
+msgstr ""
+
+#: slider/build/index.js:6
+msgid "Show media on left"
+msgstr ""
+
+#: slider/build/index.js:6
+msgid "Show media on right"
+msgstr ""
+
+#: slider/build/index.js:6
+msgid "Remove Last Slide"
+msgstr ""
+
+#: slider/build/index.js:6
+msgid "Add Slide"
+msgstr ""
+
+#: slider/build/index.js:6
+msgid "Show slider"
+msgstr ""
+
+#: slider/build/index.js:6
+msgid "Edit slider"
+msgstr ""
+
+#: slider/build/index.js:6
+#: slider/src/index.js:12
+msgid "Slider"
+msgstr ""
+
+#: social-share-child/build/index.js:6
+#: social-share-child/src/edit.js:64
+msgid "Icon"
+msgstr ""
+
+#: social-share-child/build/index.js:6
+#: social-share-child/src/edit.js:220
+msgid "Icon setting"
+msgstr ""
+
+#: social-share-child/build/index.js:6
+#: social-share-child/src/edit.js:222
+msgid "Type Share link"
+msgstr ""
+
+#: social-share-child/build/index.js:6
+#: social-share-child/src/edit.js:228
+msgid "Image / Icon"
+msgstr ""
+
+#: social-share-child/build/index.js:6
+#: social-share-child/src/edit.js:272
+msgid "Add Media"
+msgstr ""
+
+#: social-share-child/build/index.js:6
+#: social-share-child/src/edit.js:279
+msgid "Delete image"
+msgstr ""
+
+#: social-share-child/build/index.js:6
+#: social-share-child/src/edit.js:283
+msgid "Icon color settings"
+msgstr ""
+
+#: social-share-child/build/index.js:6
+#: social-share-child/src/edit.js:294
+msgid "Icon color"
+msgstr ""
+
+#: social-share-child/build/index.js:6
+#: social-share-child/src/edit.js:339
+msgid "Enter address"
+msgstr ""
+
+#: social-share-child/build/index.js:6
+#: social-share-child/src/edit.js:345
+msgid "Apply"
+msgstr ""
+
+#: social-share-child/build/index.js:6
+#: social-share-child/src/index.js:12
+msgid "Social Share Child"
+msgstr ""
+
+#: social-share-child/build/index.js:6
+#: social-share-child/src/index.js:13
+msgid "Display an icon linking to a social media profile or website."
+msgstr ""
+
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:29
+msgid "Horizontal"
+msgstr ""
+
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:30
+msgid "Vertical"
+msgstr ""
+
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:90
+msgid "Layout"
+msgstr ""
+
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:100
+msgid "Stack on"
+msgstr ""
+
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:120
+msgid "is similar width"
+msgstr ""
+
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:126
+msgid "Icon width"
+msgstr ""
+
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:149
+msgid "Note: Border Radius option is useful when one adds background color to the icons."
+msgstr ""
+
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:153
+msgid "Gap between Items"
+msgstr ""
+
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:167
+msgid "Note: The gap between the items will seem larger in the editor, for better user edit experience.But at frontend the gap will be exactly what is set from here."
+msgstr ""
+
+#: social-share/build/index.js:6
+#: social-share/src/edit.js:171
+msgid "Open links in new tab"
+msgstr ""
+
+#: social-share/build/index.js:6
+#: social-share/src/index.js:12
+msgid "Social Share"
+msgstr ""
+
+#: social-share/build/index.js:6
+#: social-share/src/index.js:13
+msgid "This block allows you to share posts/pages."
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:183
+msgid "General settings"
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:184
+msgid "Select the heading to consider when generating the table"
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:187
+msgid "H1"
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:289
+msgid "Border style"
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:303
+msgid "Border width"
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:337
+msgid "Custom Width"
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:338
+msgid "Width will be auto if this is kept off."
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:338
+msgid "No custom width."
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:373
+msgid "Width"
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:401
+#: table-of-contents/src/edit.js:441
+msgid "Content"
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:402
+msgid "Heading"
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:412
+msgid "Title align"
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:423
+msgid "Bottom Space"
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/edit.js:459
+msgid "Content align"
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/index.js:12
+msgid "Table of Contents"
+msgstr ""
+
+#: table-of-contents/build/index.js:6
+#: table-of-contents/src/index.js:13
+msgid "This block allows you to place a Table of Contents for Pages/Posts."
+msgstr ""

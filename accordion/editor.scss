@@ -1,0 +1,39 @@
+.buba{
+  &-accordion{
+    &__text{
+      display: none;
+    }
+    &__title {
+
+    }
+  }
+}
+
+div[data-type="buba-blocks/accordion"]{
+  &.is-selected,&.has-child-selected{
+    .buba-accordion{
+      &__text{
+        display: block;
+      }
+    }
+  }
+}
+
+
+.is-selected{
+  .buba-accordion__title {
+    color: var(--open-color) !important;
+
+    &-wrap {
+      border-color: var(--border-color) !important;
+      background: var(--bg-color) !important;
+    }
+  }
+  .buba-arrow-down{
+    &:after{
+      border-bottom: 2px solid var(--open-color) !important;
+      border-right: 2px solid var(--open-color) !important; 
+      transform: rotate(-135deg);
+    }
+  }
+}

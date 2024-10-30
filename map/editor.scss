@@ -1,0 +1,15 @@
+.buba{
+    &-map{
+      &__settings{
+        .components-notice{
+          margin: 20px 0;
+        }
+
+      }
+    }
+}
+
+div[data-type="buba-blocks/map"]{
+  display: block;
+  width: 100%;
+}

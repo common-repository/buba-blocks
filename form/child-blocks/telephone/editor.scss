@@ -1,0 +1,7 @@
+.buba-blocks-tel-input {
+  input {
+    &:focus {
+      border-color: var(--buba-blocks-tel-input-borderColor) !important;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import "scss/_variables";
+
+
+.buba-blocks-name-input {
+  margin: 0;
+  padding: 0;
+
+  input {
+    outline: none !important;
+    width: 100% !important;
+    border-radius: var(--buba-blocks-name-input-borderRadius) !important;
+    border-color: var(--buba-blocks-name-input-borderColor) !important;
+    border-style: var(--buba-blocks-name-input-borderStyle) !important;
+    border-width: var(--buba-blocks-name-input-borderWidth) !important;
+    background: var(--buba-blocks-name-input-background) !important;
+    color: var(--buba-blocks-name-input-color) !important;
+    padding: var(--buba-blocks-name-input-padding) !important;
+    font-size: var(--buba-blocks-name-input-fontSize) !important;
+
+    &::placeholder {
+      color: var(--buba-blocks-name-input-color) !important;
+      opacity: 0.6;
+    }
+  }
+}
